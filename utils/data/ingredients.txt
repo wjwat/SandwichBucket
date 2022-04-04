@@ -7,17 +7,18 @@ Blue Cheese;Ordinary, crumbly cheese if you're colorblind.
 Baloney;It's nonsense. 
 Butter;You best believe this is butter.
 Carrot;Human noses. If humans were snow-people.
-Cheddar;A mild-mannered cheese dyed a less intimidating color.
+Cheddar Cheese;A mild-mannered cheese dyed a less intimidating color.
 Chicken;A non-confrontational bird.
 Ciabatta Roll;Just as much to say as it is to eat.
-Corned Beef;Cows after a Korn festival, pairs well with cabbage.
-Cranberry Sauce;Cranberry jelly is so fancy its considered a sauce.
+Corned Beef;Cows after a Korn festival, pairs well with cabbage
+Korned Beef;Boom na da mmm dum na ema Da boom na da mmm dum na ema
+Cranberry Sauce;Cranberry jelly is so fancy its considered a sauce
 Cream Cheese;What's that in the sky? It's a cheese? It's a cream? It's a cream cheese!
-Cucumbers;Old pickles, if they aged like Benjamin Button.
+Cucumber;Old pickles, if they aged like Benjamin Button.
 Daniel Angerer's Human Milk Cheese;Please don't put this on your sandwich. It tastes best by itself!
 Dill Pickles;If cucumbers were witches.
 Dry Turkey;Like wet turkey, only dry.
-Egg;There's fried egg, boiled egg, sliced egg, baked egg, salted egg, raw egg, egg burger, salsa'd egg, egg sandwich, egg salad, salad egg, egg fried rice, chicken egg, .... That-that's about it.
+Egg;There's fried egg, boiled egg, sliced egg, Easter Egg, baked egg, salted egg, raw egg, egg burger, salsa'd egg, egg sandwich, egg salad, salad egg, egg fried rice, chicken egg, .... That-that's about it.
 Ham;Ham. Yup.
 Havarti Cheese;A smooth, creamy, supple-in-texture cheese. Can't have a party without havarti.
 HawtDwag;Ya know like that cute costume
@@ -47,7 +48,7 @@ Red Onion;These onions were made famous after starring in an action comedy with 
 Relish;What is relish?
 Roast Beef;Also known as 'I've got hurt feelings meat' or 'toasted conflict'.
 Salami;Xena the Warrior Princess's favorite meat, flies well when thrown.
-Sauerkraut;[Insert Europeon Joke Here]
+Sauerkraut;(Insert Europeon Joke Here)
 Seitan;Allergies be damned!!
 Slaw;Is this appropriation? 
 Sourdough Bread;Sourful and powerful, this bread has a strong opinion on every. Damn. Thing.
@@ -58,8 +59,66 @@ Swiss Cheese;The best cheese ever, and nobody can poke holes in that fact.
 Taco Meat;Hamburger + Spices = Taco Meat
 ToeMaToe;Low/no sodium, solidified ketchup miniature discuses (frisbees)
 Tuna;This popular fish is said to be able to take down a lion.
-Vegimite;I'm better than Marmite
+Vegemite;I'm better than Marmite
 White Bread;The most boring of bread, will likely lecture you on politics or something.
 Whole Wheat Bread;Bread, just disputably healthier for you.
 Yak Cheese;Cheese from our most music-festival-attending ox.
 Your Grandma's Breadbox Bread;No expiration date. Taste test first. Made with love.
+PenPineAppleApplePen;An abomination with a catchy dance. 
+Cilantro;Great in salsa, bomb in sandwiches.
+Pate;Meat paste, also a way to refer to someone's head.
+Daikon;Winter radishes is coming.
+Hamburger;The ideal hamburger for a hamburger bun.
+Hamburger Bun;The ideal bun for a hamburger.
+Steak;Eat it raw, else the internet will have an opinion about it.
+Cheezewhiz;The classiest way to enjoy cheese.
+Pie Crust;Also referred to as Pie Crusties in groups, frequently panhandle and tell you your life is a lie.
+Cherries;Used in bombs and pies, but a sweet addition to any sundae or sandwich.
+Sugar;Straight up, raw, uncut, not laced with nothin'.
+Bananas;Request them without pajamas, for a bananaier taste.
+Celery;Add some crunch to your lunch!
+Salt;Not recommended for witches consumption.
+Chicken Liver;It's better than the Chicken Die-r.
+Schmaltz;You don't want to know. Seriously, don't look it up. 
+Bread;Flour, Water, Salt, Yeast
+Pita;Take a bagel and smash it flat, like paper.
+Chickpeas;DO not eat while dry. 
+Tahini;Thick like you like it. Make sure to mix the oil in first. 
+Tzatziki;Yes it's spelled right. 
+Dough;More dough, more problems.
+Mozzarella Cheese;Best from Water Buffalo. Mama Mia!
+Pepperoni;Elk brand
+Pineapple;Not from pine trees. 
+Jalapeno;Spicy like AZ.
+Thousand Island Dressing;Generic Name for Bic Mac Sauce.
+Salsa;Green, Red, Mango, Chutney, a mystery flavor. 
+Wood;Fiber supplement. 
+Dirt;Rare, hard to find ..dirt. Found in most sandwiches in very small portions.
+A Nail;oof ouch owee
+Roast Vegetables;Like Chris Rock at the Oscars. 
+Lil'Smokies;Lil' for your lil' tummies.
+Tomato;Best home grown, do not store in fridge.
+Steak Sauce;A-1 or Heinz-57? YOU DECIDE!?@?
+Hot Sauce;*will smith voice* Ah, That's Hawt
+Capicola;Try is spicy!
+Mortadella;It is possible to have delish bologna, yes just believe. ET Phone Home. 
+Olive Oil;Vegetable Oil for the classy.
+Vinegar;Old wine for kids!
+Lingua;Kissy Kissy, Mwawh!
+Tortillas;Little dried, cut, burrito casings. 
+Nacho Cheese;Ninja Turtles favorite pizza topping after gang-fight snack.
+Onions;It has lots of layers, like Shrek.
+Barbacoa;Far South BBQ 
+Queso Fresco;Benjamin Button's aged cheese. 
+Roasted Onions;Different than raw, burnt, or even flamebroiled. 
+Green Sauce;You get it right?
+Caramelized Onions;Nearly burnt is the best bestest.
+Roasted Red Peppers;Mmmm burnt is the best. 
+Goat Cheese;Creamy delish on a cracker.
+Arugula;Why, just why?
+Bun;Don't think outside it. Think it.
+cheese;who cares what kind just eat it already
+Hot Dog;Some(most) like it hot.
+Mystery Meat;Scooby's stumped on this one too.
+Potato;boil 'em, mash 'em, stick 'em in a stew
+Haggis;What? It's basically a less processed HawtDog. All Organic!
