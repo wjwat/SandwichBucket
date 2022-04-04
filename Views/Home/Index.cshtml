@@ -2,7 +2,32 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model SandwichBucket.ViewModels.HomeViewModel
+
+<div id="text-center">
+    <h1 class="display-4">Welcome to the greatest website all about sandwiches to ever grace this earth</h1>
 </div>
+
+<!-- You can delete this once we figure out how we want to display it to the user -->
+<hr />
+
+<h4>Random Sandwich: <b>@Model.Sandwich.Name</b> -- <small>@Model.Sandwich.Description</small></h4>
+<p>Sandwich Alignment: <b>@Html.DisplayFor(model => model.Sandwich.Alignment)</b></p>
+<ul>
+    @foreach (var x in Model.Sandwich.Ingredients)
+    {
+        <li><b>@x.Ingredient.Name</b> -- <small>@x.Ingredient.Description</small></li>
+    }
+</ul>
+
+
+<p>Random TAG: @Model.Tag.Name</p>
+
+<h2>Can you make a sandwich with these things?</h2>
+
+<ul>
+@foreach (var i in Model.RandomSandwich)
+{
+    <li>@i.Name -- <small>@i.Description</small></li>
+} 
+</ul>
