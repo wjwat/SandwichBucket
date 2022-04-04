@@ -1,8 +1,194 @@
 [
   {
     "SandwichId": 1,
+    "Name": "Banh Mi",
+    "Description": "Hell yes",
+    "Alignment": 3
+  },
+  {
+    "SandwichId": 2,
     "Name": "BLT",
+    "Description": "Classic",
+    "Alignment": 1
+  },
+  {
+    "SandwichId": 3,
+    "Name": "Cheeseburger",
+    "Description": "Watch out for the burglar",
+    "Alignment": 0
+  },
+  {
+    "SandwichId": 4,
+    "Name": "Cheesesteak",
+    "Description": "Chop up",
+    "Alignment": 8
+  },
+  {
+    "SandwichId": 5,
+    "Name": "CherryPie",
+    "Description": "Damn fine",
+    "Alignment": 4
+  },
+  {
+    "SandwichId": 6,
+    "Name": "Chicken Salad",
+    "Description": "Chicken of the land",
+    "Alignment": 3
+  },
+  {
+    "SandwichId": 7,
+    "Name": "Chopped Liver",
+    "Description": "Who am I?",
+    "Alignment": 8
+  },
+  {
+    "SandwichId": 8,
+    "Name": "Croque-monsieur",
+    "Description": "Damn fine",
+    "Alignment": 1
+  },
+  {
+    "SandwichId": 9,
+    "Name": "Cubano",
+    "Description": "All kinds of pork",
+    "Alignment": 0
+  },
+  {
+    "SandwichId": 10,
+    "Name": "Doner kebab",
+    "Description": "Veal or Beef??",
+    "Alignment": 8
+  },
+  {
+    "SandwichId": 11,
+    "Name": "Egg Salad",
+    "Description": "You're either with it or against it",
+    "Alignment": 1
+  },
+  {
+    "SandwichId": 12,
+    "Name": "Falafel",
+    "Description": "Chickpeas or Garbanzos?",
+    "Alignment": 6
+  },
+  {
+    "SandwichId": 13,
+    "Name": "Georgia Reuben",
+    "Description": "Turkey and slaw baby",
+    "Alignment": 4
+  },
+  {
+    "SandwichId": 14,
+    "Name": "Grilled Cheese",
+    "Description": "Mayo or Butter???",
+    "Alignment": 8
+  },
+  {
+    "SandwichId": 15,
+    "Name": "Gyro",
+    "Description": "GYYY-ROOOE",
+    "Alignment": 8
+  },
+  {
+    "SandwichId": 16,
+    "Name": "Ham and Swiss",
+    "Description": "Some words",
+    "Alignment": 7
+  },
+  {
+    "SandwichId": 17,
+    "Name": "Hot Dog",
+    "Description": "Don't put ketchup on a hot dog",
+    "Alignment": 4
+  },
+  {
+    "SandwichId": 18,
+    "Name": "Meatball Sub",
+    "Description": "You should eat this with a fork",
+    "Alignment": 1
+  },
+  {
+    "SandwichId": 19,
+    "Name": "Muffuletta",
+    "Description": "Yum olives",
+    "Alignment": 4
+  },
+  {
+    "SandwichId": 20,
+    "Name": "Pastie",
+    "Description": "Hand eating at its finest",
+    "Alignment": 5
+  },
+  {
+    "SandwichId": 21,
+    "Name": "PB&J",
+    "Description": "That's it",
+    "Alignment": 8
+  },
+  {
+    "SandwichId": 22,
+    "Name": "Pizza",
+    "Description": "Fold it",
+    "Alignment": 3
+  },
+  {
+    "SandwichId": 23,
+    "Name": "Pulled Pork",
+    "Description": "This is making me hungry",
+    "Alignment": 5
+  },
+  {
+    "SandwichId": 24,
+    "Name": "Reuben",
     "Description": "Who cares",
-    "Ingredients": [1]
+    "Alignment": 3
+  },
+  {
+    "SandwichId": 25,
+    "Name": "Roast Beef",
+    "Description": "Gotta be with horsey sauce",
+    "Alignment": 6
+  },
+  {
+    "SandwichId": 26,
+    "Name": "Seitan",
+    "Description": "666",
+    "Alignment": 0
+  },
+  {
+    "SandwichId": 27,
+    "Name": "Spaghetti and Meatballs",
+    "Description": "Somehow this is a sandwich",
+    "Alignment": 1
+  },
+  {
+    "SandwichId": 28,
+    "Name": "Sub",
+    "Description": "A bunch of things",
+    "Alignment": 4
+  },
+  {
+    "SandwichId": 29,
+    "Name": "Taco",
+    "Description": "Maybe the best of all sandwiches",
+    "Alignment": 1
+  },
+  {
+    "SandwichId": 30,
+    "Name": "Torta",
+    "Description": "yum",
+    "Alignment": 8
+  },
+  {
+    "SandwichId": 31,
+    "Name": "Tuna Salad",
+    "Description": "Chicken of the sea",
+    "Alignment": 2
+  },
+  {
+    "SandwichId": 32,
+    "Name": "Wood",
+    "Description": "Some dirt between two 2 x 4s",
+    "Alignment": 2
   }
 ]
