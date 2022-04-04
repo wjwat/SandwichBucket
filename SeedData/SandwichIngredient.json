@@ -1,0 +1,947 @@
+[
+  {
+    "SandwichIngredientId": 1,
+    "SandwichId": 1,
+    "IngredientId": 22
+  },
+  {
+    "SandwichIngredientId": 2,
+    "SandwichId": 1,
+    "IngredientId": 68
+  },
+  {
+    "SandwichIngredientId": 3,
+    "SandwichId": 1,
+    "IngredientId": 69
+  },
+  {
+    "SandwichIngredientId": 4,
+    "SandwichId": 1,
+    "IngredientId": 9
+  },
+  {
+    "SandwichIngredientId": 5,
+    "SandwichId": 1,
+    "IngredientId": 70
+  },
+  {
+    "SandwichIngredientId": 6,
+    "SandwichId": 1,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 7,
+    "SandwichId": 1,
+    "IngredientId": 92
+  },
+  {
+    "SandwichIngredientId": 8,
+    "SandwichId": 2,
+    "IngredientId": 4
+  },
+  {
+    "SandwichIngredientId": 9,
+    "SandwichId": 2,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 10,
+    "SandwichId": 2,
+    "IngredientId": 100
+  },
+  {
+    "SandwichIngredientId": 11,
+    "SandwichId": 2,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 12,
+    "SandwichId": 3,
+    "IngredientId": 71
+  },
+  {
+    "SandwichIngredientId": 13,
+    "SandwichId": 3,
+    "IngredientId": 119
+  },
+  {
+    "SandwichIngredientId": 14,
+    "SandwichId": 3,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 15,
+    "SandwichId": 3,
+    "IngredientId": 100
+  },
+  {
+    "SandwichIngredientId": 16,
+    "SandwichId": 3,
+    "IngredientId": 110
+  },
+  {
+    "SandwichIngredientId": 17,
+    "SandwichId": 3,
+    "IngredientId": 1
+  },
+  {
+    "SandwichIngredientId": 18,
+    "SandwichId": 4,
+    "IngredientId": 73
+  },
+  {
+    "SandwichIngredientId": 19,
+    "SandwichId": 4,
+    "IngredientId": 110
+  },
+  {
+    "SandwichIngredientId": 20,
+    "SandwichId": 4,
+    "IngredientId": 74
+  },
+  {
+    "SandwichIngredientId": 21,
+    "SandwichId": 5,
+    "IngredientId": 75
+  },
+  {
+    "SandwichIngredientId": 22,
+    "SandwichId": 5,
+    "IngredientId": 8
+  },
+  {
+    "SandwichIngredientId": 23,
+    "SandwichId": 5,
+    "IngredientId": 76
+  },
+  {
+    "SandwichIngredientId": 24,
+    "SandwichId": 5,
+    "IngredientId": 77
+  },
+  {
+    "SandwichIngredientId": 25,
+    "SandwichId": 6,
+    "IngredientId": 11
+  },
+  {
+    "SandwichIngredientId": 26,
+    "SandwichId": 6,
+    "IngredientId": 78
+  },
+  {
+    "SandwichIngredientId": 27,
+    "SandwichId": 6,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 28,
+    "SandwichId": 6,
+    "IngredientId": 79
+  },
+  {
+    "SandwichIngredientId": 29,
+    "SandwichId": 6,
+    "IngredientId": 80
+  },
+  {
+    "SandwichIngredientId": 30,
+    "SandwichId": 7,
+    "IngredientId": 81
+  },
+  {
+    "SandwichIngredientId": 31,
+    "SandwichId": 7,
+    "IngredientId": 110
+  },
+  {
+    "SandwichIngredientId": 32,
+    "SandwichId": 7,
+    "IngredientId": 82
+  },
+  {
+    "SandwichIngredientId": 33,
+    "SandwichId": 8,
+    "IngredientId": 83
+  },
+  {
+    "SandwichIngredientId": 34,
+    "SandwichId": 8,
+    "IngredientId": 120
+  },
+  {
+    "SandwichIngredientId": 35,
+    "SandwichId": 8,
+    "IngredientId": 22
+  },
+  {
+    "SandwichIngredientId": 36,
+    "SandwichId": 9,
+    "IngredientId": 83
+  },
+  {
+    "SandwichIngredientId": 37,
+    "SandwichId": 9,
+    "IngredientId": 22
+  },
+  {
+    "SandwichIngredientId": 38,
+    "SandwichId": 9,
+    "IngredientId": 120
+  },
+  {
+    "SandwichIngredientId": 39,
+    "SandwichId": 9,
+    "IngredientId": 19
+  },
+  {
+    "SandwichIngredientId": 40,
+    "SandwichId": 9,
+    "IngredientId": 38
+  },
+  {
+    "SandwichIngredientId": 41,
+    "SandwichId": 10,
+    "IngredientId": 84
+  },
+  {
+    "SandwichIngredientId": 42,
+    "SandwichId": 10,
+    "IngredientId": 123
+  },
+  {
+    "SandwichIngredientId": 43,
+    "SandwichId": 10,
+    "IngredientId": 110
+  },
+  {
+    "SandwichIngredientId": 44,
+    "SandwichId": 10,
+    "IngredientId": 17
+  },
+  {
+    "SandwichIngredientId": 45,
+    "SandwichId": 11,
+    "IngredientId": 21
+  },
+  {
+    "SandwichIngredientId": 46,
+    "SandwichId": 11,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 47,
+    "SandwichId": 11,
+    "IngredientId": 56
+  },
+  {
+    "SandwichIngredientId": 48,
+    "SandwichId": 12,
+    "IngredientId": 84
+  },
+  {
+    "SandwichIngredientId": 49,
+    "SandwichId": 12,
+    "IngredientId": 85
+  },
+  {
+    "SandwichIngredientId": 50,
+    "SandwichId": 12,
+    "IngredientId": 19
+  },
+  {
+    "SandwichIngredientId": 51,
+    "SandwichId": 12,
+    "IngredientId": 86
+  },
+  {
+    "SandwichIngredientId": 52,
+    "SandwichId": 13,
+    "IngredientId": 32
+  },
+  {
+    "SandwichIngredientId": 53,
+    "SandwichId": 13,
+    "IngredientId": 14
+  },
+  {
+    "SandwichIngredientId": 54,
+    "SandwichId": 13,
+    "IngredientId": 53
+  },
+  {
+    "SandwichIngredientId": 55,
+    "SandwichId": 13,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 56,
+    "SandwichId": 13,
+    "IngredientId": 4
+  },
+  {
+    "SandwichIngredientId": 57,
+    "SandwichId": 14,
+    "IngredientId": 63
+  },
+  {
+    "SandwichIngredientId": 58,
+    "SandwichId": 14,
+    "IngredientId": 8
+  },
+  {
+    "SandwichIngredientId": 59,
+    "SandwichId": 14,
+    "IngredientId": 10
+  },
+  {
+    "SandwichIngredientId": 60,
+    "SandwichId": 15,
+    "IngredientId": 84
+  },
+  {
+    "SandwichIngredientId": 61,
+    "SandwichId": 15,
+    "IngredientId": 100
+  },
+  {
+    "SandwichIngredientId": 62,
+    "SandwichId": 15,
+    "IngredientId": 110
+  },
+  {
+    "SandwichIngredientId": 63,
+    "SandwichId": 15,
+    "IngredientId": 124
+  },
+  {
+    "SandwichIngredientId": 64,
+    "SandwichId": 15,
+    "IngredientId": 87
+  },
+  {
+    "SandwichIngredientId": 65,
+    "SandwichId": 16,
+    "IngredientId": 64
+  },
+  {
+    "SandwichIngredientId": 66,
+    "SandwichId": 16,
+    "IngredientId": 22
+  },
+  {
+    "SandwichIngredientId": 67,
+    "SandwichId": 16,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 68,
+    "SandwichId": 16,
+    "IngredientId": 38
+  },
+  {
+    "SandwichIngredientId": 69,
+    "SandwichId": 16,
+    "IngredientId": 58
+  },
+  {
+    "SandwichIngredientId": 70,
+    "SandwichId": 16,
+    "IngredientId": 60
+  },
+  {
+    "SandwichIngredientId": 71,
+    "SandwichId": 16,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 72,
+    "SandwichId": 17,
+    "IngredientId": 121
+  },
+  {
+    "SandwichIngredientId": 73,
+    "SandwichId": 17,
+    "IngredientId": 119
+  },
+  {
+    "SandwichIngredientId": 74,
+    "SandwichId": 17,
+    "IngredientId": 38
+  },
+  {
+    "SandwichIngredientId": 75,
+    "SandwichId": 17,
+    "IngredientId": 48
+  },
+  {
+    "SandwichIngredientId": 76,
+    "SandwichId": 17,
+    "IngredientId": 47
+  },
+  {
+    "SandwichIngredientId": 77,
+    "SandwichId": 18,
+    "IngredientId": 25
+  },
+  {
+    "SandwichIngredientId": 78,
+    "SandwichId": 18,
+    "IngredientId": 36
+  },
+  {
+    "SandwichIngredientId": 79,
+    "SandwichId": 18,
+    "IngredientId": 33
+  },
+  {
+    "SandwichIngredientId": 80,
+    "SandwichId": 18,
+    "IngredientId": 89
+  },
+  {
+    "SandwichIngredientId": 81,
+    "SandwichId": 19,
+    "IngredientId": 12
+  },
+  {
+    "SandwichIngredientId": 82,
+    "SandwichId": 19,
+    "IngredientId": 40
+  },
+  {
+    "SandwichIngredientId": 83,
+    "SandwichId": 19,
+    "IngredientId": 50
+  },
+  {
+    "SandwichIngredientId": 84,
+    "SandwichId": 19,
+    "IngredientId": 22
+  },
+  {
+    "SandwichIngredientId": 85,
+    "SandwichId": 19,
+    "IngredientId": 58
+  },
+  {
+    "SandwichIngredientId": 86,
+    "SandwichId": 20,
+    "IngredientId": 88
+  },
+  {
+    "SandwichIngredientId": 87,
+    "SandwichId": 20,
+    "IngredientId": 110
+  },
+  {
+    "SandwichIngredientId": 88,
+    "SandwichId": 20,
+    "IngredientId": 59
+  },
+  {
+    "SandwichIngredientId": 89,
+    "SandwichId": 20,
+    "IngredientId": 30
+  },
+  {
+    "SandwichIngredientId": 90,
+    "SandwichId": 21,
+    "IngredientId": 63
+  },
+  {
+    "SandwichIngredientId": 91,
+    "SandwichId": 21,
+    "IngredientId": 41
+  },
+  {
+    "SandwichIngredientId": 92,
+    "SandwichId": 21,
+    "IngredientId": 28
+  },
+  {
+    "SandwichIngredientId": 93,
+    "SandwichId": 22,
+    "IngredientId": 88
+  },
+  {
+    "SandwichIngredientId": 94,
+    "SandwichId": 22,
+    "IngredientId": 89
+  },
+  {
+    "SandwichIngredientId": 95,
+    "SandwichId": 22,
+    "IngredientId": 90
+  },
+  {
+    "SandwichIngredientId": 96,
+    "SandwichId": 22,
+    "IngredientId": 91
+  },
+  {
+    "SandwichIngredientId": 97,
+    "SandwichId": 22,
+    "IngredientId": 92
+  },
+  {
+    "SandwichIngredientId": 98,
+    "SandwichId": 23,
+    "IngredientId": 46
+  },
+  {
+    "SandwichIngredientId": 99,
+    "SandwichId": 23,
+    "IngredientId": 25
+  },
+  {
+    "SandwichIngredientId": 100,
+    "SandwichId": 23,
+    "IngredientId": 10
+  },
+  {
+    "SandwichIngredientId": 101,
+    "SandwichId": 23,
+    "IngredientId": 33
+  },
+  {
+    "SandwichIngredientId": 102,
+    "SandwichId": 24,
+    "IngredientId": 32
+  },
+  {
+    "SandwichIngredientId": 103,
+    "SandwichId": 24,
+    "IngredientId": 93
+  },
+  {
+    "SandwichIngredientId": 104,
+    "SandwichId": 24,
+    "IngredientId": 51
+  },
+  {
+    "SandwichIngredientId": 105,
+    "SandwichId": 24,
+    "IngredientId": 14
+  },
+  {
+    "SandwichIngredientId": 106,
+    "SandwichId": 25,
+    "IngredientId": 49
+  },
+  {
+    "SandwichIngredientId": 107,
+    "SandwichId": 25,
+    "IngredientId": 63
+  },
+  {
+    "SandwichIngredientId": 108,
+    "SandwichId": 25,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 109,
+    "SandwichId": 25,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 110,
+    "SandwichId": 25,
+    "IngredientId": 45
+  },
+  {
+    "SandwichIngredientId": 111,
+    "SandwichId": 25,
+    "IngredientId": 17
+  },
+  {
+    "SandwichIngredientId": 112,
+    "SandwichId": 26,
+    "IngredientId": 52
+  },
+  {
+    "SandwichIngredientId": 113,
+    "SandwichId": 26,
+    "IngredientId": 52
+  },
+  {
+    "SandwichIngredientId": 114,
+    "SandwichId": 26,
+    "IngredientId": 52
+  },
+  {
+    "SandwichIngredientId": 115,
+    "SandwichId": 26,
+    "IngredientId": 38
+  },
+  {
+    "SandwichIngredientId": 116,
+    "SandwichId": 27,
+    "IngredientId": 55
+  },
+  {
+    "SandwichIngredientId": 117,
+    "SandwichId": 27,
+    "IngredientId": 36
+  },
+  {
+    "SandwichIngredientId": 118,
+    "SandwichId": 28,
+    "IngredientId": 1
+  },
+  {
+    "SandwichIngredientId": 119,
+    "SandwichId": 28,
+    "IngredientId": 122
+  },
+  {
+    "SandwichIngredientId": 120,
+    "SandwichId": 28,
+    "IngredientId": 4
+  },
+  {
+    "SandwichIngredientId": 121,
+    "SandwichId": 28,
+    "IngredientId": 5
+  },
+  {
+    "SandwichIngredientId": 122,
+    "SandwichId": 28,
+    "IngredientId": 11
+  },
+  {
+    "SandwichIngredientId": 123,
+    "SandwichId": 28,
+    "IngredientId": 17
+  },
+  {
+    "SandwichIngredientId": 124,
+    "SandwichId": 28,
+    "IngredientId": 22
+  },
+  {
+    "SandwichIngredientId": 125,
+    "SandwichId": 28,
+    "IngredientId": 25
+  },
+  {
+    "SandwichIngredientId": 126,
+    "SandwichId": 28,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 127,
+    "SandwichId": 28,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 128,
+    "SandwichId": 28,
+    "IngredientId": 38
+  },
+  {
+    "SandwichIngredientId": 129,
+    "SandwichId": 28,
+    "IngredientId": 49
+  },
+  {
+    "SandwichIngredientId": 130,
+    "SandwichId": 28,
+    "IngredientId": 50
+  },
+  {
+    "SandwichIngredientId": 131,
+    "SandwichId": 29,
+    "IngredientId": 49
+  },
+  {
+    "SandwichIngredientId": 132,
+    "SandwichId": 29,
+    "IngredientId": 10
+  },
+  {
+    "SandwichIngredientId": 133,
+    "SandwichId": 29,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 134,
+    "SandwichId": 29,
+    "IngredientId": 11
+  },
+  {
+    "SandwichIngredientId": 135,
+    "SandwichId": 29,
+    "IngredientId": 59
+  },
+  {
+    "SandwichIngredientId": 136,
+    "SandwichId": 29,
+    "IngredientId": 94
+  },
+  {
+    "SandwichIngredientId": 137,
+    "SandwichId": 30,
+    "IngredientId": 108
+  },
+  {
+    "SandwichIngredientId": 138,
+    "SandwichId": 30,
+    "IngredientId": 109
+  },
+  {
+    "SandwichIngredientId": 139,
+    "SandwichId": 30,
+    "IngredientId": 59
+  },
+  {
+    "SandwichIngredientId": 140,
+    "SandwichId": 31,
+    "IngredientId": 11
+  },
+  {
+    "SandwichIngredientId": 141,
+    "SandwichId": 31,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 142,
+    "SandwichId": 31,
+    "IngredientId": 56
+  },
+  {
+    "SandwichIngredientId": 143,
+    "SandwichId": 32,
+    "IngredientId": 95
+  },
+  {
+    "SandwichIngredientId": 144,
+    "SandwichId": 32,
+    "IngredientId": 96
+  },
+  {
+    "SandwichIngredientId": 145,
+    "SandwichId": 32,
+    "IngredientId": 97
+  },
+  {
+    "SandwichIngredientId": 146,
+    "SandwichId": 33,
+    "IngredientId": 98
+  },
+  {
+    "SandwichIngredientId": 147,
+    "SandwichId": 33,
+    "IngredientId": 16
+  },
+  {
+    "SandwichIngredientId": 148,
+    "SandwichId": 33,
+    "IngredientId": 83
+  },
+  {
+    "SandwichIngredientId": 149,
+    "SandwichId": 34,
+    "IngredientId": 14
+  },
+  {
+    "SandwichIngredientId": 150,
+    "SandwichId": 34,
+    "IngredientId": 13
+  },
+  {
+    "SandwichIngredientId": 151,
+    "SandwichId": 34,
+    "IngredientId": 38
+  },
+  {
+    "SandwichIngredientId": 152,
+    "SandwichId": 34,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 153,
+    "SandwichId": 34,
+    "IngredientId": 91
+  },
+  {
+    "SandwichIngredientId": 154,
+    "SandwichId": 34,
+    "IngredientId": 51
+  },
+  {
+    "SandwichIngredientId": 155,
+    "SandwichId": 35,
+    "IngredientId": 14
+  },
+  {
+    "SandwichIngredientId": 156,
+    "SandwichId": 35,
+    "IngredientId": 58
+  },
+  {
+    "SandwichIngredientId": 157,
+    "SandwichId": 35,
+    "IngredientId": 38
+  },
+  {
+    "SandwichIngredientId": 158,
+    "SandwichId": 36,
+    "IngredientId": 99
+  },
+  {
+    "SandwichIngredientId": 159,
+    "SandwichId": 36,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 160,
+    "SandwichId": 36,
+    "IngredientId": 1
+  },
+  {
+    "SandwichIngredientId": 161,
+    "SandwichId": 36,
+    "IngredientId": 110
+  },
+  {
+    "SandwichIngredientId": 162,
+    "SandwichId": 37,
+    "IngredientId": 73
+  },
+  {
+    "SandwichIngredientId": 163,
+    "SandwichId": 37,
+    "IngredientId": 101
+  },
+  {
+    "SandwichIngredientId": 164,
+    "SandwichId": 37,
+    "IngredientId": 35
+  },
+  {
+    "SandwichIngredientId": 165,
+    "SandwichId": 37,
+    "IngredientId": 94
+  },
+  {
+    "SandwichIngredientId": 166,
+    "SandwichId": 37,
+    "IngredientId": 102
+  },
+  {
+    "SandwichIngredientId": 167,
+    "SandwichId": 38,
+    "IngredientId": 1
+  },
+  {
+    "SandwichIngredientId": 168,
+    "SandwichId": 38,
+    "IngredientId": 22
+  },
+  {
+    "SandwichIngredientId": 169,
+    "SandwichId": 39,
+    "IngredientId": 50
+  },
+  {
+    "SandwichIngredientId": 170,
+    "SandwichId": 39,
+    "IngredientId": 103
+  },
+  {
+    "SandwichIngredientId": 171,
+    "SandwichId": 39,
+    "IngredientId": 104
+  },
+  {
+    "SandwichIngredientId": 172,
+    "SandwichId": 39,
+    "IngredientId": 105
+  },
+  {
+    "SandwichIngredientId": 173,
+    "SandwichId": 39,
+    "IngredientId": 106
+  },
+  {
+    "SandwichIngredientId": 174,
+    "SandwichId": 39,
+    "IngredientId": 31
+  },
+  {
+    "SandwichIngredientId": 175,
+    "SandwichId": 39,
+    "IngredientId": 100
+  },
+  {
+    "SandwichIngredientId": 176,
+    "SandwichId": 39,
+    "IngredientId": 45
+  },
+  {
+    "SandwichIngredientId": 177,
+    "SandwichId": 40,
+    "IngredientId": 63
+  },
+  {
+    "SandwichIngredientId": 178,
+    "SandwichId": 40,
+    "IngredientId": 107
+  },
+  {
+    "SandwichIngredientId": 179,
+    "SandwichId": 40,
+    "IngredientId": 111
+  },
+  {
+    "SandwichIngredientId": 180,
+    "SandwichId": 40,
+    "IngredientId": 112
+  },
+  {
+    "SandwichIngredientId": 181,
+    "SandwichId": 40,
+    "IngredientId": 113
+  },
+  {
+    "SandwichIngredientId": 182,
+    "SandwichId": 40,
+    "IngredientId": 114
+  },
+  {
+    "SandwichIngredientId": 183,
+    "SandwichId": 40,
+    "IngredientId": 92
+  },
+  {
+    "SandwichIngredientId": 184,
+    "SandwichId": 41,
+    "IngredientId": 46
+  },
+  {
+    "SandwichIngredientId": 185,
+    "SandwichId": 41,
+    "IngredientId": 115
+  },
+  {
+    "SandwichIngredientId": 186,
+    "SandwichId": 41,
+    "IngredientId": 116
+  },
+  {
+    "SandwichIngredientId": 187,
+    "SandwichId": 41,
+    "IngredientId": 117
+  },
+  {
+    "SandwichIngredientId": 188,
+    "SandwichId": 41,
+    "IngredientId": 16
+  },
+  {
+    "SandwichIngredientId": 189,
+    "SandwichId": 41,
+    "IngredientId": 118
+  }
+]
