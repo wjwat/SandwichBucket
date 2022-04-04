@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -25,38 +26,23 @@ namespace SandwichBucket
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
-      builder.Entity<Sandwich>()
-        .HasData(
-          SeedSandwichData()
-        );
-      builder.Entity<Ingredient>()
-        .HasData(
-          SeedIngredientData()
-        );
+      builder.Entity<Sandwich>().HasData(SeedData<Sandwich>());
+      builder.Entity<Ingredient>().HasData(SeedData<Ingredient>());
+      builder.Entity<Tag>().HasData(SeedData<Tag>());
     }
 
-    private List<Sandwich> SeedSandwichData()
+    private List<T> SeedData<T>()
     {
-      var sandos = new List<Sandwich>();
-      using (StreamReader s = new StreamReader(@"SeedData\Sandwich.json"))
+      var name = typeof(T).Name;
+      List<T> rows = new List<T>();
+
+      using (StreamReader s = new StreamReader(@$"SeedData\{name}.json"))
       {
         string j = s.ReadToEnd();
-        sandos = JsonSerializer.Deserialize<List<Sandwich>>(j);
+        rows = JsonSerializer.Deserialize<List<T>>(j);
       }
 
-      return sandos;
-    }
-    private List<Ingredient> SeedIngredientData()
-    {
-      var sandos = new List<Ingredient>();
-      using (StreamReader s = new StreamReader(@"SeedData\Ingredient.json"))
-      {
-        string j = s.ReadToEnd();
-        sandos = JsonSerializer.Deserialize<List<Ingredient>>(j);
-      }
-
-      return sandos;
+      return rows;
     }
   }
 }
-// ripgrep
