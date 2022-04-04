@@ -1,0 +1,8 @@
+[
+  {
+    "IngredientId": 1,
+    "Name": "Lettuce",
+    "Description": "The stupidest of all ingredients",
+    "Sandwiches": [1]
+  }
+]

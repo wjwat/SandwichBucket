@@ -1,0 +1,8 @@
+[
+  {
+    "SandwichId": 1,
+    "Name": "BLT",
+    "Description": "Who cares",
+    "Ingredients": [1]
+  }
+]
