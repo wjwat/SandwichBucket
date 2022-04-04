@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace SandwichBucket.Models
 {
@@ -22,14 +23,23 @@ namespace SandwichBucket.Models
 
   public enum SandwichAlignment
   {
+    [Display(Name = "Lawful Good")]
     LawfulGood,
+    [Display(Name = "Neutral Good")]
     NeutralGood,
+    [Display(Name = "Chaotic Good")]
     ChaoticGood,
+    [Display(Name = "Lawful Neutral")]
     LawfulNeutral,
+    [Display(Name = "True Neutral")]
     TrueNeutral,
+    [Display(Name = "Chaotic Neutral")]
     ChaoticNeutral,
+    [Display(Name = "Lawful Evil")]
     LawfulEvil,
+    [Display(Name = "Neutral Evil")]
     NeutralEvil,
+    [Display(Name = "Chaotic Evil")]
     ChaoticEvil
   }
 
