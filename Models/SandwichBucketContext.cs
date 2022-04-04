@@ -29,6 +29,7 @@ namespace SandwichBucket
       builder.Entity<Sandwich>().HasData(SeedData<Sandwich>());
       builder.Entity<Ingredient>().HasData(SeedData<Ingredient>());
       builder.Entity<Tag>().HasData(SeedData<Tag>());
+      builder.Entity<SandwichIngredient>().HasData(SeedData<SandwichIngredient>());
     }
 
     private List<T> SeedData<T>()
