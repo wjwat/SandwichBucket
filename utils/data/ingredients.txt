@@ -117,7 +117,7 @@ Roasted Red Peppers;Mmmm burnt is the best.
 Goat Cheese;Creamy delish on a cracker.
 Arugula;Why, just why?
 Bun;Don't think outside it. Think it.
-cheese;who cares what kind just eat it already
+Cheese;who cares what kind just eat it already
 Hot Dog;Some(most) like it hot.
 Mystery Meat;Scooby's stumped on this one too.
 Potato;boil 'em, mash 'em, stick 'em in a stew
