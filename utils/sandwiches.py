@@ -6,7 +6,7 @@ SANDWICH_ID = 1
 
 with open("data/sandwiches.txt") as f:
   for x in f.readlines():
-    name, description = [y.strip() for y in x.split(';')]
+    name, description, _toss = [y.strip() for y in x.split(';')]
     ROWS.append({
       "SandwichId": SANDWICH_ID,
       "Name": name,
