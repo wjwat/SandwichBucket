@@ -187,7 +187,8 @@ namespace SandwichBucket.Controllers
       return Json(new {
         Name = sandwich.Name,
         Description = sandwich.Description,
-        Alignment = sandwich.Alignment
+        Alignment = sandwich.Alignment,
+        SandwichId = sandwich.SandwichId
       });
     }
   }
