@@ -10,11 +10,11 @@ using SandwichBucket.ViewModels;
 
 namespace SandwichBucket.Controllers
 {
-  public class SandwichsController : Controller
+  public class SandwichesController : Controller
   {
     private readonly SandwichBucketContext _db;
 
-    public SandwichsController(SandwichBucketContext db)
+    public SandwichesController(SandwichBucketContext db)
     {
         _db = db;
     }
