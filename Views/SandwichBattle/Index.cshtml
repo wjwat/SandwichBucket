@@ -1,3 +1,15 @@
 @{
     Layout = "_Battle";
 }
+
+@model SandwichBucket.ViewModels.HomeViewModel
+
+  <div class="game">
+    <img id="enemy-sandwich" src="~/img/battle/enemy.png">
+    <img id="player-sandwich" src="~/img/battle/player.jpg">
+    <div id="enemy-name">@Model.Sandwich.Name</div>
+    <div class="menu" id="fight">Fight</div>
+    <img id="select" src="~/img/battle/select.png">
+    <div class="menu" id="exit">Home</div>
+    <img id="select-exit" src="~/img/battle/select.png">
+  </div>
