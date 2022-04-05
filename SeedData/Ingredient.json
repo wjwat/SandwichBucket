@@ -1,33 +1,33 @@
 [
   {
     "IngredientId": 1,
+    "Name": "A Nail",
+    "Description": "oof ouch owee"
+  },
+  {
+    "IngredientId": 2,
     "Name": "American Cheese",
     "Description": "O'er the land of the cheese and the home of the brave."
   },
   {
-    "IngredientId": 2,
+    "IngredientId": 3,
     "Name": "Anchovy Paste",
     "Description": "I'm better than both Vegemite or Marmite."
   },
   {
-    "IngredientId": 3,
+    "IngredientId": 4,
+    "Name": "Arugula",
+    "Description": "Why, just why?"
+  },
+  {
+    "IngredientId": 5,
     "Name": "Avocado",
     "Description": "It's hip 'vocado. And $9 a cut."
   },
   {
-    "IngredientId": 4,
+    "IngredientId": 6,
     "Name": "Bacon",
     "Description": "You can't spell 'happiness' without 'bacon'. well, you can. you'd just be miserable spelling it."
-  },
-  {
-    "IngredientId": 5,
-    "Name": "Bell Peppers",
-    "Description": "1776 substituted with peppers instead of liberty."
-  },
-  {
-    "IngredientId": 6,
-    "Name": "Blue Cheese",
-    "Description": "Ordinary, crumbly cheese if you're colorblind."
   },
   {
     "IngredientId": 7,
@@ -36,592 +36,602 @@
   },
   {
     "IngredientId": 8,
-    "Name": "Butter",
-    "Description": "You best believe this is butter."
-  },
-  {
-    "IngredientId": 9,
-    "Name": "Carrot",
-    "Description": "Human noses. If humans were snow-people."
-  },
-  {
-    "IngredientId": 10,
-    "Name": "Cheddar Cheese",
-    "Description": "A mild-mannered cheese dyed a less intimidating color."
-  },
-  {
-    "IngredientId": 11,
-    "Name": "Chicken",
-    "Description": "A non-confrontational bird."
-  },
-  {
-    "IngredientId": 12,
-    "Name": "Ciabatta Roll",
-    "Description": "Just as much to say as it is to eat."
-  },
-  {
-    "IngredientId": 13,
-    "Name": "Corned Beef",
-    "Description": "Cows after a Korn festival, pairs well with cabbage"
-  },
-  {
-    "IngredientId": 14,
-    "Name": "Korned Beef",
-    "Description": "Boom na da mmm dum na ema Da boom na da mmm dum na ema"
-  },
-  {
-    "IngredientId": 15,
-    "Name": "Cranberry Sauce",
-    "Description": "Cranberry jelly is so fancy its considered a sauce"
-  },
-  {
-    "IngredientId": 16,
-    "Name": "Cream Cheese",
-    "Description": "What's that in the sky? It's a cheese? It's a cream? It's a cream cheese!"
-  },
-  {
-    "IngredientId": 17,
-    "Name": "Cucumber",
-    "Description": "Old pickles, if they aged like Benjamin Button."
-  },
-  {
-    "IngredientId": 18,
-    "Name": "Daniel Angerer's Human Milk Cheese",
-    "Description": "Please don't put this on your sandwich. It tastes best by itself!"
-  },
-  {
-    "IngredientId": 19,
-    "Name": "Dill Pickles",
-    "Description": "If cucumbers were witches."
-  },
-  {
-    "IngredientId": 20,
-    "Name": "Dry Turkey",
-    "Description": "Like wet turkey, only dry."
-  },
-  {
-    "IngredientId": 21,
-    "Name": "Egg",
-    "Description": "There's fried egg, boiled egg, sliced egg, Easter Egg, baked egg, salted egg, raw egg, egg burger, salsa'd egg, egg sandwich, egg salad, salad egg, egg fried rice, chicken egg, .... That-that's about it."
-  },
-  {
-    "IngredientId": 22,
-    "Name": "Ham",
-    "Description": "Ham. Yup."
-  },
-  {
-    "IngredientId": 23,
-    "Name": "Havarti Cheese",
-    "Description": "A smooth, creamy, supple-in-texture cheese. Can't have a party without havarti."
-  },
-  {
-    "IngredientId": 24,
-    "Name": "HawtDwag",
-    "Description": "Ya know like that cute costume"
-  },
-  {
-    "IngredientId": 25,
-    "Name": "Hoagie Bun",
-    "Description": "During the day, a columnist. At night, a hero roll."
-  },
-  {
-    "IngredientId": 26,
-    "Name": "Horseradish",
-    "Description": "How cool is that horse? Eh. That horse is rad-ish."
-  },
-  {
-    "IngredientId": 27,
-    "Name": "Hummus",
-    "Description": "Pairs well with Avocado bread, thick rimmed glasses and The Shins."
-  },
-  {
-    "IngredientId": 28,
-    "Name": "Jam Jellies",
-    "Description": "If fruit and sugar got into a car accident and neither were wearing a seatbelt."
-  },
-  {
-    "IngredientId": 29,
-    "Name": "Ketchup",
-    "Description": "Along with chocolate, makes for an excellent blood substitute with film."
-  },
-  {
-    "IngredientId": 30,
-    "Name": "KimChi",
-    "Description": "A type of karate, filled with vegetables."
-  },
-  {
-    "IngredientId": 31,
-    "Name": "Lettuce",
-    "Description": "A green blanket, enjoyed by rabbits."
-  },
-  {
-    "IngredientId": 32,
-    "Name": "Marbled Rye Bread",
-    "Description": "Bread, inspired by Vincent van Gogh."
-  },
-  {
-    "IngredientId": 33,
-    "Name": "Marinara",
-    "Description": "A trench in the ocean... Not sure what this has to do with sandwiches."
-  },
-  {
-    "IngredientId": 34,
-    "Name": "Marmite",
-    "Description": "Im better than Vegemite"
-  },
-  {
-    "IngredientId": 35,
-    "Name": "Mayo",
-    "Description": "Spread for your bread."
-  },
-  {
-    "IngredientId": 36,
-    "Name": "MeatBalls",
-    "Description": "Boy, sure is nice not havin' Shake around."
-  },
-  {
-    "IngredientId": 37,
-    "Name": "MicroGreens",
-    "Description": "Taste like freshly cut grass. Looks like freshly cut grass. is freshly cut grass"
-  },
-  {
-    "IngredientId": 38,
-    "Name": "Mustard",
-    "Description": "A zesty yellow fellow that isn't at all mellow, and can make you bellow."
-  },
-  {
-    "IngredientId": 39,
-    "Name": "Nutella",
-    "Description": "Brown spread. Don't worry, it's hazelnut and cocoa."
-  },
-  {
-    "IngredientId": 40,
-    "Name": "Olive Bruschetta",
-    "Description": "I'm a tomato poser."
-  },
-  {
-    "IngredientId": 41,
-    "Name": "Peanut Butter",
-    "Description": "Be judged by your selection of this at Costco, by Steve, a passerby. Screw you, Steve! I LIKE JIF. I DON'T NEED MY PEANUT-BUTTER TO BE MADE OUT OF ALMONDS. THAT'S YOUR CHOICE. anyway, its peanuts in butter-form."
-  },
-  {
-    "IngredientId": 42,
-    "Name": "PepperCini",
-    "Description": "Like peppers, but from the east coast."
-  },
-  {
-    "IngredientId": 43,
-    "Name": "Pesto",
-    "Description": "The last name of the family across the street from Bob's business."
-  },
-  {
-    "IngredientId": 44,
-    "Name": "Prosciutto",
-    "Description": "Uncured ham, sliced as thin as Ryan's wallet."
-  },
-  {
-    "IngredientId": 45,
-    "Name": "Provolone",
-    "Description": "Made in solidary in Provo, Utah."
-  },
-  {
-    "IngredientId": 46,
-    "Name": "Pulled Pork",
-    "Description": "'I like my butt rubbed and my pork pulled' - Porky Pig"
-  },
-  {
-    "IngredientId": 47,
-    "Name": "Red Onion",
-    "Description": "These onions were made famous after starring in an action comedy with Bruce Willis."
-  },
-  {
-    "IngredientId": 48,
-    "Name": "Relish",
-    "Description": "What is relish?"
-  },
-  {
-    "IngredientId": 49,
-    "Name": "Roast Beef",
-    "Description": "Also known as 'I've got hurt feelings meat' or 'toasted conflict'."
-  },
-  {
-    "IngredientId": 50,
-    "Name": "Salami",
-    "Description": "Xena the Warrior Princess's favorite meat, flies well when thrown."
-  },
-  {
-    "IngredientId": 51,
-    "Name": "Sauerkraut",
-    "Description": "(Insert Europeon Joke Here)"
-  },
-  {
-    "IngredientId": 52,
-    "Name": "Seitan",
-    "Description": "Allergies be damned!!"
-  },
-  {
-    "IngredientId": 53,
-    "Name": "Slaw",
-    "Description": "Is this appropriation?"
-  },
-  {
-    "IngredientId": 54,
-    "Name": "Sourdough Bread",
-    "Description": "Sourful and powerful, this bread has a strong opinion on every. Damn. Thing."
-  },
-  {
-    "IngredientId": 55,
-    "Name": "Spaghetti",
-    "Description": "PastaFarians be craving those noodly apendages."
-  },
-  {
-    "IngredientId": 56,
-    "Name": "Spinach",
-    "Description": "Soggy lettuce, produces beachball-sized biceps when consumed."
-  },
-  {
-    "IngredientId": 57,
-    "Name": "Subway Yoga Mat Bread",
-    "Description": "Created from slightly used yoga mats from the dance studio across the street."
-  },
-  {
-    "IngredientId": 58,
-    "Name": "Swiss Cheese",
-    "Description": "The best cheese ever, and nobody can poke holes in that fact."
-  },
-  {
-    "IngredientId": 59,
-    "Name": "Taco Meat",
-    "Description": "Hamburger + Spices = Taco Meat"
-  },
-  {
-    "IngredientId": 60,
-    "Name": "ToeMaToe",
-    "Description": "Low/no sodium, solidified ketchup miniature discuses (frisbees)"
-  },
-  {
-    "IngredientId": 61,
-    "Name": "Tuna",
-    "Description": "This popular fish is said to be able to take down a lion."
-  },
-  {
-    "IngredientId": 62,
-    "Name": "Vegemite",
-    "Description": "I'm better than Marmite"
-  },
-  {
-    "IngredientId": 63,
-    "Name": "White Bread",
-    "Description": "The most boring of bread, will likely lecture you on politics or something."
-  },
-  {
-    "IngredientId": 64,
-    "Name": "Whole Wheat Bread",
-    "Description": "Bread, just disputably healthier for you."
-  },
-  {
-    "IngredientId": 65,
-    "Name": "Yak Cheese",
-    "Description": "Cheese from our most music-festival-attending ox."
-  },
-  {
-    "IngredientId": 66,
-    "Name": "Your Grandma's Breadbox Bread",
-    "Description": "No expiration date. Taste test first. Made with love."
-  },
-  {
-    "IngredientId": 67,
-    "Name": "PenPineAppleApplePen",
-    "Description": "An abomination with a catchy dance."
-  },
-  {
-    "IngredientId": 68,
-    "Name": "Cilantro",
-    "Description": "Great in salsa, bomb in sandwiches."
-  },
-  {
-    "IngredientId": 69,
-    "Name": "Pate",
-    "Description": "Meat paste, also a way to refer to someone's head."
-  },
-  {
-    "IngredientId": 70,
-    "Name": "Daikon",
-    "Description": "Winter radishes is coming."
-  },
-  {
-    "IngredientId": 71,
-    "Name": "Hamburger",
-    "Description": "The ideal hamburger for a hamburger bun."
-  },
-  {
-    "IngredientId": 72,
-    "Name": "Hamburger Bun",
-    "Description": "The ideal bun for a hamburger."
-  },
-  {
-    "IngredientId": 73,
-    "Name": "Steak",
-    "Description": "Eat it raw, else the internet will have an opinion about it."
-  },
-  {
-    "IngredientId": 74,
-    "Name": "Cheezewhiz",
-    "Description": "The classiest way to enjoy cheese."
-  },
-  {
-    "IngredientId": 75,
-    "Name": "Pie Crust",
-    "Description": "Also referred to as Pie Crusties in groups, frequently panhandle and tell you your life is a lie."
-  },
-  {
-    "IngredientId": 76,
-    "Name": "Cherries",
-    "Description": "Used in bombs and pies, but a sweet addition to any sundae or sandwich."
-  },
-  {
-    "IngredientId": 77,
-    "Name": "Sugar",
-    "Description": "Straight up, raw, uncut, not laced with nothin'."
-  },
-  {
-    "IngredientId": 78,
     "Name": "Bananas",
     "Description": "Request them without pajamas, for a bananaier taste."
   },
   {
-    "IngredientId": 79,
-    "Name": "Celery",
-    "Description": "Add some crunch to your lunch!"
-  },
-  {
-    "IngredientId": 80,
-    "Name": "Salt",
-    "Description": "Not recommended for witches consumption."
-  },
-  {
-    "IngredientId": 81,
-    "Name": "Chicken Liver",
-    "Description": "It's better than the Chicken Die-r."
-  },
-  {
-    "IngredientId": 82,
-    "Name": "Schmaltz",
-    "Description": "You don't want to know. Seriously, don't look it up."
-  },
-  {
-    "IngredientId": 83,
-    "Name": "Bread",
-    "Description": "Flour, Water, Salt, Yeast"
-  },
-  {
-    "IngredientId": 84,
-    "Name": "Pita",
-    "Description": "Take a bagel and smash it flat, like paper."
-  },
-  {
-    "IngredientId": 85,
-    "Name": "Chickpeas",
-    "Description": "DO not eat while dry."
-  },
-  {
-    "IngredientId": 86,
-    "Name": "Tahini",
-    "Description": "Thick like you like it. Make sure to mix the oil in first."
-  },
-  {
-    "IngredientId": 87,
-    "Name": "Tzatziki",
-    "Description": "Yes it's spelled right."
-  },
-  {
-    "IngredientId": 88,
-    "Name": "Dough",
-    "Description": "More dough, more problems."
-  },
-  {
-    "IngredientId": 89,
-    "Name": "Mozzarella Cheese",
-    "Description": "Best from Water Buffalo. Mama Mia!"
-  },
-  {
-    "IngredientId": 90,
-    "Name": "Pepperoni",
-    "Description": "Elk brand"
-  },
-  {
-    "IngredientId": 91,
-    "Name": "Pineapple",
-    "Description": "Not from pine trees."
-  },
-  {
-    "IngredientId": 92,
-    "Name": "Jalapeno",
-    "Description": "Spicy like AZ."
-  },
-  {
-    "IngredientId": 93,
-    "Name": "Thousand Island Dressing",
-    "Description": "Generic Name for Bic Mac Sauce."
-  },
-  {
-    "IngredientId": 94,
-    "Name": "Salsa",
-    "Description": "Green, Red, Mango, Chutney, a mystery flavor."
-  },
-  {
-    "IngredientId": 95,
-    "Name": "Wood",
-    "Description": "Fiber supplement."
-  },
-  {
-    "IngredientId": 96,
-    "Name": "Dirt",
-    "Description": "Rare, hard to find ..dirt. Found in most sandwiches in very small portions."
-  },
-  {
-    "IngredientId": 97,
-    "Name": "A Nail",
-    "Description": "oof ouch owee"
-  },
-  {
-    "IngredientId": 98,
-    "Name": "Roast Vegetables",
-    "Description": "Like Chris Rock at the Oscars."
-  },
-  {
-    "IngredientId": 99,
-    "Name": "Lil'Smokies",
-    "Description": "Lil' for your lil' tummies."
-  },
-  {
-    "IngredientId": 100,
-    "Name": "Tomato",
-    "Description": "Best home grown, do not store in fridge."
-  },
-  {
-    "IngredientId": 101,
-    "Name": "Steak Sauce",
-    "Description": "A-1 or Heinz-57? YOU DECIDE!?@?"
-  },
-  {
-    "IngredientId": 102,
-    "Name": "Hot Sauce",
-    "Description": "*will smith voice* Ah, That's Hawt"
-  },
-  {
-    "IngredientId": 103,
-    "Name": "Capicola",
-    "Description": "Try is spicy!"
-  },
-  {
-    "IngredientId": 104,
-    "Name": "Mortadella",
-    "Description": "It is possible to have delish bologna, yes just believe. ET Phone Home."
-  },
-  {
-    "IngredientId": 105,
-    "Name": "Olive Oil",
-    "Description": "Vegetable Oil for the classy."
-  },
-  {
-    "IngredientId": 106,
-    "Name": "Vinegar",
-    "Description": "Old wine for kids!"
-  },
-  {
-    "IngredientId": 107,
-    "Name": "Lingua",
-    "Description": "Kissy Kissy, Mwawh!"
-  },
-  {
-    "IngredientId": 108,
-    "Name": "Tortillas",
-    "Description": "Little dried, cut, burrito casings."
-  },
-  {
-    "IngredientId": 109,
-    "Name": "Nacho Cheese",
-    "Description": "Ninja Turtles favorite pizza topping after gang-fight snack."
-  },
-  {
-    "IngredientId": 110,
-    "Name": "Onions",
-    "Description": "It has lots of layers, like Shrek."
-  },
-  {
-    "IngredientId": 111,
+    "IngredientId": 9,
     "Name": "Barbacoa",
     "Description": "Far South BBQ"
   },
   {
-    "IngredientId": 112,
-    "Name": "Queso Fresco",
-    "Description": "Benjamin Button's aged cheese."
+    "IngredientId": 10,
+    "Name": "Bell Peppers",
+    "Description": "1776 substituted with peppers instead of liberty."
   },
   {
-    "IngredientId": 113,
-    "Name": "Roasted Onions",
-    "Description": "Different than raw, burnt, or even flamebroiled."
+    "IngredientId": 11,
+    "Name": "Blue Cheese",
+    "Description": "Ordinary, crumbly cheese if you're colorblind."
   },
   {
-    "IngredientId": 114,
-    "Name": "Green Sauce",
-    "Description": "You get it right?"
+    "IngredientId": 12,
+    "Name": "Bread",
+    "Description": "Flour, Water, Salt, Yeast"
   },
   {
-    "IngredientId": 115,
+    "IngredientId": 13,
+    "Name": "Bun",
+    "Description": "Don't think outside it. Think it."
+  },
+  {
+    "IngredientId": 14,
+    "Name": "Butter",
+    "Description": "You best believe this is butter."
+  },
+  {
+    "IngredientId": 15,
+    "Name": "Capicola",
+    "Description": "Try is spicy!"
+  },
+  {
+    "IngredientId": 16,
     "Name": "Caramelized Onions",
     "Description": "Nearly burnt is the best bestest."
   },
   {
-    "IngredientId": 116,
-    "Name": "Roasted Red Peppers",
-    "Description": "Mmmm burnt is the best."
+    "IngredientId": 17,
+    "Name": "Carrot",
+    "Description": "Human noses. If humans were snow-people."
   },
   {
-    "IngredientId": 117,
+    "IngredientId": 18,
+    "Name": "Celery",
+    "Description": "Add some crunch to your lunch!"
+  },
+  {
+    "IngredientId": 19,
+    "Name": "Cheddar Cheese",
+    "Description": "A mild-mannered cheese dyed a less intimidating color."
+  },
+  {
+    "IngredientId": 20,
+    "Name": "Cheese",
+    "Description": "who cares what kind just eat it already"
+  },
+  {
+    "IngredientId": 21,
+    "Name": "Cheezewhiz",
+    "Description": "The classiest way to enjoy cheese."
+  },
+  {
+    "IngredientId": 22,
+    "Name": "Cherries",
+    "Description": "Used in bombs and pies, but a sweet addition to any sundae or sandwich."
+  },
+  {
+    "IngredientId": 23,
+    "Name": "Chicken Liver",
+    "Description": "It's better than the Chicken Die-r."
+  },
+  {
+    "IngredientId": 24,
+    "Name": "Chicken",
+    "Description": "A non-confrontational bird."
+  },
+  {
+    "IngredientId": 25,
+    "Name": "Chickpeas",
+    "Description": "DO not eat while dry."
+  },
+  {
+    "IngredientId": 26,
+    "Name": "Chocolate Bread With Holes",
+    "Description": "The holes are where the flavor is!"
+  },
+  {
+    "IngredientId": 27,
+    "Name": "Ciabatta Roll",
+    "Description": "Just as much to say as it is to eat."
+  },
+  {
+    "IngredientId": 28,
+    "Name": "Cilantro",
+    "Description": "Great in salsa, bomb in sandwiches."
+  },
+  {
+    "IngredientId": 29,
+    "Name": "Corned Beef",
+    "Description": "Cows after a Korn festival, pairs well with cabbage"
+  },
+  {
+    "IngredientId": 30,
+    "Name": "Cranberry Sauce",
+    "Description": "Cranberry jelly is so fancy its considered a sauce"
+  },
+  {
+    "IngredientId": 31,
+    "Name": "Cream Cheese",
+    "Description": "What's that in the sky? It's a cheese? It's a cream? It's a cream cheese!"
+  },
+  {
+    "IngredientId": 32,
+    "Name": "Cucumber",
+    "Description": "Old pickles, if they aged like Benjamin Button."
+  },
+  {
+    "IngredientId": 33,
+    "Name": "Daikon",
+    "Description": "Winter radishes is coming."
+  },
+  {
+    "IngredientId": 34,
+    "Name": "Daniel Angerer's Human Milk Cheese",
+    "Description": "Please don't put this on your sandwich. It tastes best by itself!"
+  },
+  {
+    "IngredientId": 35,
+    "Name": "Dill Pickles",
+    "Description": "If cucumbers were witches."
+  },
+  {
+    "IngredientId": 36,
+    "Name": "Dirt",
+    "Description": "Rare, hard to find ..dirt. Found in most sandwiches in very small portions."
+  },
+  {
+    "IngredientId": 37,
+    "Name": "Dough",
+    "Description": "More dough, more problems."
+  },
+  {
+    "IngredientId": 38,
+    "Name": "Dry Turkey",
+    "Description": "Like wet turkey, only dry."
+  },
+  {
+    "IngredientId": 39,
+    "Name": "Egg",
+    "Description": "There's fried egg, boiled egg, sliced egg, Easter Egg, baked egg, salted egg, raw egg, egg burger, salsa'd egg, egg sandwich, egg salad, salad egg, egg fried rice, chicken egg, .... That-that's about it."
+  },
+  {
+    "IngredientId": 40,
     "Name": "Goat Cheese",
     "Description": "Creamy delish on a cracker."
   },
   {
-    "IngredientId": 118,
-    "Name": "Arugula",
-    "Description": "Why, just why?"
+    "IngredientId": 41,
+    "Name": "Green Sauce",
+    "Description": "You get it right?"
   },
   {
-    "IngredientId": 119,
-    "Name": "Bun",
-    "Description": "Why not?"
+    "IngredientId": 42,
+    "Name": "Haggis",
+    "Description": "What? It's basically a less processed HawtDog. All Organic!"
   },
   {
-    "IngredientId": 120,
-    "Name": "cheese",
-    "Description": "who cares what kind just eat it already"
+    "IngredientId": 43,
+    "Name": "Ham",
+    "Description": "Ham. Yup."
   },
   {
-    "IngredientId": 121,
+    "IngredientId": 44,
+    "Name": "Hamburger Bun",
+    "Description": "The ideal bun for a hamburger."
+  },
+  {
+    "IngredientId": 45,
+    "Name": "Hamburger",
+    "Description": "The ideal hamburger for a hamburger bun."
+  },
+  {
+    "IngredientId": 46,
+    "Name": "Havarti Cheese",
+    "Description": "A smooth, creamy, supple-in-texture cheese. Can't have a party without havarti."
+  },
+  {
+    "IngredientId": 47,
+    "Name": "HawtDwag",
+    "Description": "Ya know like that cute costume"
+  },
+  {
+    "IngredientId": 48,
+    "Name": "Hoagie Bun",
+    "Description": "During the day, a columnist. At night, a hero roll."
+  },
+  {
+    "IngredientId": 49,
+    "Name": "Horseradish",
+    "Description": "How cool is that horse? Eh. That horse is rad-ish."
+  },
+  {
+    "IngredientId": 50,
     "Name": "Hot Dog",
-    "Description": "when the dog is hot"
+    "Description": "Some(most) like it hot."
   },
   {
-    "IngredientId": 122,
-    "Name": "Avacado",
-    "Description": "fancy guac sauce"
+    "IngredientId": 51,
+    "Name": "Hot Sauce",
+    "Description": "*will smith voice* Ah, That's Hawt"
   },
   {
-    "IngredientId": 123,
+    "IngredientId": 52,
+    "Name": "Hummus",
+    "Description": "Pairs well with Avocado bread, thick rimmed glasses and The Shins."
+  },
+  {
+    "IngredientId": 53,
+    "Name": "Ice Cream",
+    "Description": "It's cold."
+  },
+  {
+    "IngredientId": 54,
+    "Name": "Jalapeno",
+    "Description": "Spicy like AZ."
+  },
+  {
+    "IngredientId": 55,
+    "Name": "Jam Jellies",
+    "Description": "If fruit and sugar got into a car accident and neither were wearing a seatbelt."
+  },
+  {
+    "IngredientId": 56,
+    "Name": "Ketchup",
+    "Description": "Along with chocolate, makes for an excellent blood substitute with film."
+  },
+  {
+    "IngredientId": 57,
+    "Name": "KimChi",
+    "Description": "A type of karate, filled with vegetables."
+  },
+  {
+    "IngredientId": 58,
+    "Name": "Korned Beef",
+    "Description": "Boom na da mmm dum na ema Da boom na da mmm dum na ema"
+  },
+  {
+    "IngredientId": 59,
+    "Name": "Lettuce",
+    "Description": "A green blanket, enjoyed by rabbits."
+  },
+  {
+    "IngredientId": 60,
+    "Name": "Lil'Smokies",
+    "Description": "Lil' for your lil' tummies."
+  },
+  {
+    "IngredientId": 61,
+    "Name": "Lingua",
+    "Description": "Kissy Kissy, Mwawh!"
+  },
+  {
+    "IngredientId": 62,
+    "Name": "Marbled Rye Bread",
+    "Description": "Bread, inspired by Vincent van Gogh."
+  },
+  {
+    "IngredientId": 63,
+    "Name": "Marinara",
+    "Description": "A trench in the ocean... Not sure what this has to do with sandwiches."
+  },
+  {
+    "IngredientId": 64,
+    "Name": "Marmite",
+    "Description": "Im better than Vegemite"
+  },
+  {
+    "IngredientId": 65,
+    "Name": "Mayo",
+    "Description": "Spread for your bread."
+  },
+  {
+    "IngredientId": 66,
+    "Name": "MeatBalls",
+    "Description": "Boy, sure is nice not havin' Shake around."
+  },
+  {
+    "IngredientId": 67,
+    "Name": "MicroGreens",
+    "Description": "Taste like freshly cut grass. Looks like freshly cut grass. is freshly cut grass"
+  },
+  {
+    "IngredientId": 68,
+    "Name": "Mortadella",
+    "Description": "It is possible to have delish bologna, yes just believe. ET Phone Home."
+  },
+  {
+    "IngredientId": 69,
+    "Name": "Mozzarella Cheese",
+    "Description": "Best from Water Buffalo. Mama Mia!"
+  },
+  {
+    "IngredientId": 70,
+    "Name": "Mustard",
+    "Description": "A zesty yellow fellow that isn't at all mellow, and can make you bellow."
+  },
+  {
+    "IngredientId": 71,
     "Name": "Mystery Meat",
-    "Description": "who knows"
+    "Description": "Scooby's stumped on this one too."
   },
   {
-    "IngredientId": 124,
+    "IngredientId": 72,
+    "Name": "Nacho Cheese",
+    "Description": "Ninja Turtles favorite pizza topping after gang-fight snack."
+  },
+  {
+    "IngredientId": 73,
+    "Name": "Nutella",
+    "Description": "Brown spread. Don't worry, it's hazelnut and cocoa."
+  },
+  {
+    "IngredientId": 74,
+    "Name": "Olive Bruschetta",
+    "Description": "I'm a tomato poser."
+  },
+  {
+    "IngredientId": 75,
+    "Name": "Olive Oil",
+    "Description": "Vegetable Oil for the classy."
+  },
+  {
+    "IngredientId": 76,
+    "Name": "Onions",
+    "Description": "It has lots of layers, like Shrek."
+  },
+  {
+    "IngredientId": 77,
+    "Name": "Pate",
+    "Description": "Meat paste, also a way to refer to someone's head."
+  },
+  {
+    "IngredientId": 78,
+    "Name": "Peanut Butter",
+    "Description": "Be judged by your selection of this at Costco, by Steve, a passerby. Screw you, Steve! I LIKE JIF. I DON'T NEED MY PEANUT-BUTTER TO BE MADE OUT OF ALMONDS. THAT'S YOUR CHOICE. anyway, its peanuts in butter-form."
+  },
+  {
+    "IngredientId": 79,
+    "Name": "PenPineAppleApplePen",
+    "Description": "An abomination with a catchy dance."
+  },
+  {
+    "IngredientId": 80,
+    "Name": "PepperCini",
+    "Description": "Like peppers, but from the east coast."
+  },
+  {
+    "IngredientId": 81,
+    "Name": "Pepperoni",
+    "Description": "Elk brand"
+  },
+  {
+    "IngredientId": 82,
+    "Name": "Pesto",
+    "Description": "The last name of the family across the street from Bob's business."
+  },
+  {
+    "IngredientId": 83,
+    "Name": "Pie Crust",
+    "Description": "Also referred to as Pie Crusties in groups, frequently panhandle and tell you your life is a lie."
+  },
+  {
+    "IngredientId": 84,
+    "Name": "Pineapple",
+    "Description": "Not from pine trees."
+  },
+  {
+    "IngredientId": 85,
+    "Name": "Pita",
+    "Description": "Take a bagel and smash it flat, like paper."
+  },
+  {
+    "IngredientId": 86,
     "Name": "Potato",
     "Description": "boil 'em, mash 'em, stick 'em in a stew"
   },
   {
+    "IngredientId": 87,
+    "Name": "Prosciutto",
+    "Description": "Uncured ham, sliced as thin as Ryan's wallet."
+  },
+  {
+    "IngredientId": 88,
+    "Name": "Provolone",
+    "Description": "Made in solidary in Provo, Utah."
+  },
+  {
+    "IngredientId": 89,
+    "Name": "Pulled Pork",
+    "Description": "'I like my butt rubbed and my pork pulled' - Porky Pig"
+  },
+  {
+    "IngredientId": 90,
+    "Name": "Queso Fresco",
+    "Description": "Benjamin Button's aged cheese."
+  },
+  {
+    "IngredientId": 91,
+    "Name": "Red Onion",
+    "Description": "These onions were made famous after starring in an action comedy with Bruce Willis."
+  },
+  {
+    "IngredientId": 92,
+    "Name": "Relish",
+    "Description": "What is relish?"
+  },
+  {
+    "IngredientId": 93,
+    "Name": "Roast Beef",
+    "Description": "Also known as 'I've got hurt feelings meat' or 'toasted conflict'."
+  },
+  {
+    "IngredientId": 94,
+    "Name": "Roast Vegetables",
+    "Description": "Like Chris Rock at the Oscars."
+  },
+  {
+    "IngredientId": 95,
+    "Name": "Roasted Onions",
+    "Description": "Different than raw, burnt, or even flamebroiled."
+  },
+  {
+    "IngredientId": 96,
+    "Name": "Roasted Red Peppers",
+    "Description": "Mmmm burnt is the best."
+  },
+  {
+    "IngredientId": 97,
+    "Name": "Salad",
+    "Description": "Good for your fingers"
+  },
+  {
+    "IngredientId": 98,
+    "Name": "Salami",
+    "Description": "Xena the Warrior Princess's favorite meat, flies well when thrown."
+  },
+  {
+    "IngredientId": 99,
+    "Name": "Salsa",
+    "Description": "Green, Red, Mango, Chutney, a mystery flavor."
+  },
+  {
+    "IngredientId": 100,
+    "Name": "Salt",
+    "Description": "Not recommended for witches consumption."
+  },
+  {
+    "IngredientId": 101,
+    "Name": "Sauerkraut",
+    "Description": "(Insert Europeon Joke Here)"
+  },
+  {
+    "IngredientId": 102,
+    "Name": "Schmaltz",
+    "Description": "You don't want to know. Seriously, don't look it up."
+  },
+  {
+    "IngredientId": 103,
+    "Name": "Seitan",
+    "Description": "Allergies be damned!!"
+  },
+  {
+    "IngredientId": 104,
+    "Name": "Slaw",
+    "Description": "Is this appropriation?"
+  },
+  {
+    "IngredientId": 105,
+    "Name": "Sourdough Bread",
+    "Description": "Sourful and powerful, this bread has a strong opinion on every. Damn. Thing."
+  },
+  {
+    "IngredientId": 106,
+    "Name": "Spaghetti",
+    "Description": "PastaFarians be craving those noodly apendages."
+  },
+  {
+    "IngredientId": 107,
+    "Name": "Spinach",
+    "Description": "Soggy lettuce, produces beachball-sized biceps when consumed."
+  },
+  {
+    "IngredientId": 108,
+    "Name": "Steak Sauce",
+    "Description": "A-1 or Heinz-57? YOU DECIDE!?@?"
+  },
+  {
+    "IngredientId": 109,
+    "Name": "Steak",
+    "Description": "Eat it raw, else the internet will have an opinion about it."
+  },
+  {
+    "IngredientId": 110,
+    "Name": "Subway Yoga Mat Bread",
+    "Description": "Created from slightly used yoga mats from the dance studio across the street."
+  },
+  {
+    "IngredientId": 111,
+    "Name": "Sugar",
+    "Description": "Straight up, raw, uncut, not laced with nothin'."
+  },
+  {
+    "IngredientId": 112,
+    "Name": "Swiss Cheese",
+    "Description": "The best cheese ever, and nobody can poke holes in that fact."
+  },
+  {
+    "IngredientId": 113,
+    "Name": "Taco Meat",
+    "Description": "Hamburger + Spices = Taco Meat"
+  },
+  {
+    "IngredientId": 114,
+    "Name": "Tahini",
+    "Description": "Thick like you like it. Make sure to mix the oil in first."
+  },
+  {
+    "IngredientId": 115,
+    "Name": "Thousand Island Dressing",
+    "Description": "Generic Name for Bic Mac Sauce."
+  },
+  {
+    "IngredientId": 116,
+    "Name": "ToeMaToe",
+    "Description": "Low/no sodium, solidified ketchup miniature discuses (frisbees)"
+  },
+  {
+    "IngredientId": 117,
+    "Name": "Tomato",
+    "Description": "Best home grown, do not store in fridge."
+  },
+  {
+    "IngredientId": 118,
+    "Name": "Tortillas",
+    "Description": "Little dried, cut, burrito casings."
+  },
+  {
+    "IngredientId": 119,
+    "Name": "Tuna",
+    "Description": "This popular fish is said to be able to take down a lion."
+  },
+  {
+    "IngredientId": 120,
+    "Name": "Tzatziki",
+    "Description": "Yes it's spelled right."
+  },
+  {
+    "IngredientId": 121,
+    "Name": "Vegemite",
+    "Description": "I'm better than Marmite"
+  },
+  {
+    "IngredientId": 122,
+    "Name": "Vinegar",
+    "Description": "Old wine for kids!"
+  },
+  {
+    "IngredientId": 123,
+    "Name": "White Bread",
+    "Description": "The most boring of bread, will likely lecture you on politics or something."
+  },
+  {
+    "IngredientId": 124,
+    "Name": "Whole Wheat Bread",
+    "Description": "Bread, just disputably healthier for you."
+  },
+  {
     "IngredientId": 125,
-    "Name": "Haggis",
-    "Description": "What? It's basically a less processed HawtDog."
+    "Name": "Wood",
+    "Description": "Fiber supplement."
+  },
+  {
+    "IngredientId": 126,
+    "Name": "Yak Cheese",
+    "Description": "Cheese from our most music-festival-attending ox."
+  },
+  {
+    "IngredientId": 127,
+    "Name": "Your Grandma's Breadbox Bread",
+    "Description": "No expiration date. Taste test first. Made with love."
   }
 ]
