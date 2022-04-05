@@ -16,6 +16,7 @@ namespace SandwichBucket
     public DbSet<Tag> Tags { get; set; }
     public DbSet<SandwichIngredient> SandwichesIngredients { get; set; }
     public DbSet<SandwichTag> SandwichesTags { get; set; }
+    public DbSet<IngredientTag> IngredientsTags { get; set; }
 
     public SandwichBucketContext(DbContextOptions<SandwichBucketContext> options) : base(options) { }
 
@@ -37,7 +38,7 @@ namespace SandwichBucket
       var name = typeof(T).Name;
       List<T> rows = new List<T>();
 
-      using (StreamReader s = new StreamReader(@$"SeedData\{name}.json"))
+      using (StreamReader s = new StreamReader(@$"SeedData/{name}.json"))
       {
         string j = s.ReadToEnd();
         rows = JsonSerializer.Deserialize<List<T>>(j);
