@@ -4,7 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@ViewData["Title"] - SandwichBucket</title>
-  <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -12,16 +11,19 @@
   <link rel="icon" type="image/png" href="~/img/sand.png">
 </head>
 <body>
-  <a style="margin: auto" href="https://www.match.com/"><img src="/img/match-com-2000.gif" /></a>
+  <a href="https://www.match.com/"><img style="margin: auto;display: block" src="/img/match-com-2000.gif" /></a>
   <header>
-    <h1 class="glow" style="text-align: center;size: 150%;"><img src="/img/sandwich.gif" />THE SANDWICH BUCKET <img src="/img/sandwich.gif" /></h1>
+    <h1 class="glow" style="text-align: center;size: 150%;">
+    <a href="https://www.youtube.com/watch?v=k85mRPqvMbE"><img src="/img/sandwich.gif" /></a>
+    THE SANDWICH BUCKET
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="/img/sandwich.gif" /></a></h1>
   </header>
   <hr>
   @RenderBody()
   <hr>
-  <a href="http://google.com/"><button type="button">Sandwiches</button></a>
-  <a href="http://google.com/"><button type="button">Ingredients</button></a>
-  <a href="http://google.com/"><button type="button">Tags</button></a>
+  <a href="/Sandwiches"><button type="button">Sandwiches</button></a>
+  <a href="/Ingredients"><button type="button">Ingredients</button></a>
+  <a href="/Tags"><button type="button">Tags</button></a>
   <hr>
   <footer>
   <img src="/img/buttons/beer.gif" />
@@ -33,10 +35,11 @@
   <img src="/img/buttons/drpepper.gif" />
   <br />
   <img src="/img/construction.gif" />
+  <p>BLESS THIS MESS</p>
   <br />
   <img src="/img/neko.gif" />
   </footer>
-  <a href="https://epicodus.com/"><img src="/img/the-street-2000.gif" /></a>
+  <a href="https://epicodus.com/"><img style="margin: auto;display: block" src="/img/the-street-2000.gif" /></a>
   <!-- <audio controls autoplay loop>
     <source src="/midi/korn_quiet.mp3" type="audio/mpeg">
   </audio>

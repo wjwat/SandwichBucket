@@ -11,8 +11,8 @@ else
 {
   @foreach (Sandwich s in Model)
   {
-    <li>
-      <ul>
+    
+      <ul class="sandlist">
         <li><span class="stylized">@s.Name</span>
           <br />@s.Description
           <br />@Html.ActionLink("Check It Out", "Details", "Sandwiches", new { id = s.SandwichId })
@@ -40,6 +40,8 @@ else
         }
         *@
       </ul>
-    </li>
+    
   }
 }
+
+<a href="/Sandwiches/Create"><button type=button>MAKE YOURSELF UP ONE</button></a>

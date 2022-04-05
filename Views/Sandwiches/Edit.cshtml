@@ -1,0 +1,12 @@
+@model SandwichBucket.Models.Sandwich
+
+<h1>Edit @Model.Name</h1>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(s => s.SandwichId)
+
+  @await Html.PartialAsync("_Forms/_SandwichForm")
+  <br />
+  <button>FIX THIS PIECE OF CRAP</button>
+}

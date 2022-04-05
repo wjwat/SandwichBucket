@@ -1,0 +1,37 @@
+@model SandwichBucket.Models.Sandwich
+
+<h1 class="are-you-sure">ARE YOU SURE YOU WANT TO DELETE THIS?</h1>
+
+<h1>@Model.Name</h1>
+
+<h4>Alignment: @Html.DisplayFor(m => m.Alignment)</h4>
+
+<h4>Description: @Model.Description</h4>
+
+@if (Model.Ingredients.Count != 0)
+{
+  <h2>Ingredients</h2>
+  <ul>
+  @foreach (var i in Model.Ingredients.Select(i => i.Ingredient).ToList())
+  {
+    <li>@i.Name / @i.Description</li>
+  }
+  </ul>
+}
+
+@if (Model.Tags.Count != 0)
+{
+  <hr />
+  <h2>Tags</h2>
+  <ul>
+  @foreach (var t in Model.Tags.Select(t => t.Tag).ToList())
+  {
+    <li>@t.Name</li>
+  }
+  </ul>
+}
+<br />
+@using (Html.BeginForm())
+{
+  <button class="delete-button">MAKE SURE YOU'RE SURE BEFORE YOU HIT THIS BUTTON</button>
+}
