@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.jump .game {
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  background-image:url(../img/battle/battlescreen.png);
+  background-size: 300px 300px;
+  width: 305px;
+  min-height: 300px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: white;
+  text-align: center;
+}
+
+#enemy-name{
+  position:relative;
+  font-family: "Press Start 2P";
+  font-size: 9px;
+  top: -72px;
+  left: -10px;
+}
+#enemy-sandwich {
+  width: 80px;
+  position: relative;
+  left: 120px;
+  top: 10px;
+}
+#player-sandwich{
+  width: 80px;
+  position: relative;
+  top: 125px;
+  left: -130px;
+}
+
+.menu {
+  font-family: "Press Start 2P";
+  font-size: 12px;
+}
+
+#fight {
+  position: relative;
+  top: 120px;
+  left: 25px;
+}
+
+#select {
+  width: 20px;
+  position: relative;
+  top: 97px;
+  left: -13px;
+  visibility: hidden;
+}
+
+#select-exit {
+  width: 20px;
+  position: relative;
+  top: 87px;
+  left: -13px;
+  visibility: hidden;
+}
+
+#exit {
+  position: relative;
+  top: 110px;
+  left: 20px;
+}
+
+#fight:hover + #select {
+  visibility: visible;
+}
+
+#exit:hover + #select-exit{
+  visibility: visible;
+}
