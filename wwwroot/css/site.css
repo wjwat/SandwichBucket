@@ -52,3 +52,31 @@ ul, li, footer {
   height: 10%;
 	margin-bottom: 10%;
 }
+
+button {
+	border-radius: 0px;
+	color: black;
+	font-family: serif;
+	font-size: 18px;
+}
+
+.stylized {
+	color: red;
+}
+
+.glow {
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px blue, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange;
+  }
+  to {
+    text-shadow: 0 0 20px blue, 0 0 30px orangered, 0 0 40px orangered, 0 0 50px orangered, 0 0 60px orangered, 0 0 70px orangered, 0 0 80px orangered;
+  }
+}
