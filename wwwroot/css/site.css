@@ -1,8 +1,6 @@
 ﻿* {
   color: white;
   text-shadow: rgb(99, 32, 32) 1px 1px;
-  /* font-family: 'Permanent Marker', cursive; */
-	
 }
 
 body {
@@ -10,7 +8,6 @@ body {
 	margin: 0 auto;
 	background: url(/img/bg-star.png) repeat;
 	background-size: 400px;
-	/* background-repeat: repeat-y; */
 	cursor: url(/img/sandwich_cursor.png), wait;	
 }
 
@@ -26,7 +23,6 @@ input {
 	padding-bottom: 20px;
 	margin: auto;
 	margin-bottom: 5px;
-	/* list-style-position: inside; */
 	list-style-type: square;
 }
 .ing {
