@@ -1,0 +1,12 @@
+@model SandwichBucket.Models.Tag
+
+<h1>Create a new tag</h1>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(t => t.TagId)
+  @await Html.PartialAsync("_Forms/_TagForm")
+  <br />
+  <br />
+  <button style="text-align:center">CHANGE IT UP</button>
+}

@@ -1,16 +1,43 @@
 ﻿* {
-  font-family: “Comic Sans MS”, “Comic Sans”, fantasy;
   color: white;
   text-shadow: rgb(99, 32, 32) 1px 1px;
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+	
 }
 
 body {
+	max-width: 60rem;
+	margin: 0 auto;
 	background: url(/img/bg-star.png) repeat;
 	background-size: 400px;
 	/* background-repeat: repeat-y; */
-  max-width: 640px;
-	cursor: url('http://localhost:5000/img/sandwich.gif'), auto;
+	cursor: url(/img/sandwich_cursor.png), wait;	
+}
+
+input {
+	color: black;
+	text-shadow: none;
+}
+
+.sandlist {
+	border: 1px solid green;
+	width: 50%;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	margin: auto;
+	margin-bottom: 5px;
+	/* list-style-position: inside; */
+	list-style-type: square;
+}
+.ing {
+	border: 1px dotted red;
+	padding: 10px;
+	margin: auto;
+}
+ul, li {
+	font-weight: bold;
+	font-size: 1.3rem;
+	
 }
 
 ul, li, footer {
@@ -51,4 +78,55 @@ ul, li, footer {
 .space2 {
   height: 10%;
 	margin-bottom: 10%;
+}
+
+button, select, option {
+	border-radius: 0px;
+	color: black;
+	font-family: serif;
+	font-size: 18px;
+	text-shadow: none;
+}
+
+.stylized {
+	color: red;
+}
+
+.glow {
+	font-size: 200%;
+	font-family: 'Monoton', cursive;
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px white, 0 0 20px #fff, 0 0 30px #FF851B, 0 0 40px #FF851B, 0 0 50px #FF851B, 0 0 60px #FF851B, 0 0 70px #FF851B;
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px orangered, 0 0 40px orangered, 0 0 50px orangered, 0 0 60px orangered, 0 0 70px orangered, 0 0 80px orangered;
+  }
+}
+
+.delete-button {
+	margin: auto;
+	display: block;
+	animation: angry 1s linear infinite normal;
+}
+
+.are-you-sure {
+	color: red;
+	text-align: center;
+}
+
+@keyframes angry {
+	from {
+    text-shadow: 0 0 10px red, 0 0 11px red, 0 0 12px red, 0 0 13px red, 0 0 14px red, 0 0 15px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 700px red;
+  }
+  to {
+    text-shadow: 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
+  }
 }

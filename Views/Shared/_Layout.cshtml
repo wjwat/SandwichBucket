@@ -4,20 +4,27 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@ViewData["Title"] - SandwichBucket</title>
-  <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="~/css/site.css" />
-  <link rel="icon" type="image/png" href="~/img/sand.png">
+  <link rel="icon" type="image/png" href="~/img/sandwich.gif">
 </head>
 <body>
-  <a style="margin: auto" href="https://www.match.com/"><img src="/img/match-com-2000.gif" /></a>
+  <a href="https://www.match.com/"><img style="margin: auto;display: block" src="/img/match-com-2000.gif" /></a>
   <header>
-    <h1 style="text-align: center;size: 150%;"><img src="/img/sandwich.gif" />THE SANDWICH BUCKET <img src="/img/sandwich.gif" /></h1>
+    <h1 class="glow" style="text-align: center;size: 150%;">
+    <a href="https://www.youtube.com/watch?v=k85mRPqvMbE"><img src="/img/sandwich.gif" /></a>
+    THE SANDWICH BUCKET
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="/img/sandwich.gif" /></a></h1>
   </header>
   <hr>
   @RenderBody()
+  <hr>
+  <a href="/"><button type="button">Home Sweet Home</button></a>
+  <a href="/Sandwiches"><button type="button">Sandwiches</button></a>
+  <a href="/Ingredients"><button type="button">Ingredients</button></a>
+  <a href="/Tags"><button type="button">Tags</button></a>
   <hr>
   <footer>
   <img src="/img/buttons/beer.gif" />
@@ -30,14 +37,16 @@
   <br />
   <img src="/img/construction.gif" />
   <br />
+  <img src="/img/mess.gif" />
+  <br />
   <img src="/img/neko.gif" />
   </footer>
-  <a href="https://epicodus.com/"><img src="/img/the-street-2000.gif" /></a>
-  <audio controls autoplay loop>
-    <source src="/midi/korn_quiet.mp3" type="audio/mpeg">
+  <a href="https://epicodus.com/"><img style="margin: auto;display: block" src="/img/the-street-2000.gif" /></a>
+  <!-- <audio controls autoplay loop>
+    <source src="/midi/mouth.mp3" type="audio/mpeg">
   </audio>
   <script>
     alert("WELCOME TO YOUR #1 SITE FOR SANDWICH RECIPES ON THE INTERNET!!!");
-  </script>
+  </script> -->
 </body>
 </html>

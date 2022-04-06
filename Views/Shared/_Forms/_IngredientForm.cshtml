@@ -1,0 +1,50 @@
+@{
+  string isChecked = "";
+}
+
+@model SandwichBucket.Models.Ingredient
+
+@Html.LabelFor(s => s.Name)
+@Html.TextBoxFor(s => s.Name)
+@Html.LabelFor(s => s.Description)
+@Html.TextBoxFor(s => s.Description)
+
+<h2>Sandwiches</h2>
+@if (ViewBag.Sandwiches.Count == 0)
+{
+  <h3>These are not the sandwiches you're looking for</h3>
+}
+else
+{
+  for (int i = 0; i < ViewBag.Sandwiches.Count; i++)
+  {
+    @if (ViewBag.SandwichesIngredients != null)
+    {
+      isChecked = (ViewBag.SandwichesIngredients.Contains(@ViewBag.Sandwiches[i].SandwichId)) ? "checked" : "";
+    }
+
+    <input type="checkbox" id="@ViewBag.Sandwiches[i].SandwichId-sandy-id" name="SandwichId" value="@ViewBag.Sandwiches[i].SandwichId" @isChecked>
+    <label for="@ViewBag.Sandwiches[i].SandwichId-sandy-id">@ViewBag.Sandwiches[i].Name / @ViewBag.Sandwiches[i].Description</label>
+    <br>
+  }
+}
+
+<h2>Tags</h2>
+@if (ViewBag.Tags.Count == 0)
+{
+  <h3>These are not the tags you're looking for</h3>
+}
+else
+{
+  for (int i = 0; i < ViewBag.Tags.Count; i++)
+  {
+    @if (ViewBag.IngredientsTags != null)
+    {
+      isChecked = (ViewBag.IngredientsTags.Contains(@ViewBag.Tags[i].TagId)) ? "checked" : "";
+    }
+
+    <input type="checkbox" id="@ViewBag.Tags[i].TagId-tag-id" name="TagId" value="@ViewBag.Tags[i].TagId" @isChecked>
+    <label for="@ViewBag.Tags[i].TagId-tag-id">@ViewBag.Tags[i].Name</label>
+    <br>
+  }
+}

@@ -1,0 +1,33 @@
+@model SandwichBucket.Models.Sandwich
+
+<h1>@Model.Name</h1>
+
+<h4>Alignment: @Html.DisplayFor(m => m.Alignment)</h4>
+
+<h4>Description: @Model.Description</h4>
+
+@if (Model.Ingredients.Count != 0)
+{
+  <h2>Ingredients</h2>
+  <ul>
+  @foreach (var i in Model.Ingredients.Select(i => i.Ingredient).ToList())
+  {
+    <li>@i.Name / @i.Description</li>
+  }
+  </ul>
+}
+
+@if (Model.Tags.Count != 0)
+{
+  <hr />
+  <h2>Tags</h2>
+  <ul>
+  @foreach (var t in Model.Tags.Select(t => t.Tag).ToList())
+  {
+    <li>@t.Name</li>
+  }
+  </ul>
+}
+
+<a href="/Sandwiches/Edit/@Model.SandwichId"><button type=button>PUT A LITTLE PERFUME ON THIS PIG</button></a>
+<a href="/Sandwiches/Delete/@Model.SandwichId"><button type=button>THROW THIS PIECE OF TRASH IN THE GARBAGE</button></a>

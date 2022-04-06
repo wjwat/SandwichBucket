@@ -29,12 +29,9 @@ namespace SandwichBucket.Controllers
     // GET Create
     public ActionResult Create()
     {
-      var model = new CreateViewModel() {
-        Sandwiches = _db.Sandwiches.ToList(),
-        Tags = _db.Tags.ToList()
-      };
-
-      return View(model);
+      ViewBag.Sandwiches = _db.Sandwiches.ToList();
+      ViewBag.Tags = _db.Tags.ToList();
+      return View();
     }
 
     // POST Create
@@ -74,11 +71,18 @@ namespace SandwichBucket.Controllers
     // GET Edit
     public ActionResult Edit(int id)
     {
-      var model = new IngredientEditViewModel() {
-        Ingredient = _db.Ingredients.FirstOrDefault(i => i.IngredientId == id),
-        Sandwiches = _db.Sandwiches.ToList(),
-        Tags = _db.Tags.ToList()
-      };
+      var model = _db.Ingredients.FirstOrDefault(i => i.IngredientId == id);
+      ViewBag.Sandwiches = _db.Sandwiches.ToList();
+      ViewBag.Tags = _db.Tags.ToList();
+      ViewBag.SandwichesIngredients = _db.SandwichesIngredients
+          .Where(i => i.IngredientId == id)
+          .Select(s => s.SandwichId)
+          .ToList();
+      ViewBag.IngredientsTags = _db.IngredientsTags
+          .Where(i => i.IngredientId == id)
+          .Select(t => t.TagId)
+          .ToList();
+
       return View(model);
     }
 
