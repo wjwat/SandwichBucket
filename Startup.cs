@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ namespace SandwichBucket
 
     public void ConfigureServices(IServiceCollection services)
     {
+
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
@@ -42,7 +44,16 @@ namespace SandwichBucket
     {
       app.UseDeveloperExceptionPage();
       app.UseRouting();
-      app.UseStaticFiles();
+
+      //Trying the code below for building Flappybird
+      var options = new StaticFileOptions();
+      var contentTypeProvider = (FileExtensionContentTypeProvider)options.ContentTypeProvider ?? new FileExtensionContentTypeProvider();
+      contentTypeProvider.Mappings.Add(".unityweb", "application/octet-stream");
+      // contentTypeProvider.Mappings.Add(".data", "application/octet-stream");
+      options.ContentTypeProvider = contentTypeProvider;
+      app.UseStaticFiles(options);
+
+      // app.UseStaticFiles();
 
       app.UseCors("CorsPolicy");
 
