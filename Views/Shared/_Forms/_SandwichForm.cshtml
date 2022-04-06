@@ -28,8 +28,8 @@ else
       isChecked = (ViewBag.SandwichesIngredients.Contains(@ViewBag.Ingredients[i].IngredientId)) ? "checked" : "";
     }
 
-    <input type="checkbox" id="@ViewBag.Ingredients[i].IngredientId-id" name="IngredientId" value="@ViewBag.Ingredients[i].IngredientId" @isChecked>
-    <label for="@ViewBag.Ingredients[i].IngredientId-id">@ViewBag.Ingredients[i].Name / @ViewBag.Ingredients[i].Description</label>
+    <input type="checkbox" id="@ViewBag.Ingredients[i].IngredientId-ing-id" name="IngredientId" value="@ViewBag.Ingredients[i].IngredientId" @isChecked>
+    <label for="@ViewBag.Ingredients[i].IngredientId-ing-id">@ViewBag.Ingredients[i].Name / @ViewBag.Ingredients[i].Description</label>
     <br>
   }
 }
@@ -48,8 +48,8 @@ else
       isChecked = (ViewBag.SandwichesTags.Contains(@ViewBag.Tags[i].TagId)) ? "checked" : "";
     }
 
-    <input type="checkbox" id="@ViewBag.Tags[i].TagId-id" name="TagId" value="@ViewBag.Tags[i].TagId" @isChecked>
-    <label for="@ViewBag.Tags[i].TagId-id">@ViewBag.Tags[i].Name</label>
+    <input type="checkbox" id="@ViewBag.Tags[i].TagId-tag-id" name="TagId" value="@ViewBag.Tags[i].TagId" @isChecked>
+    <label for="@ViewBag.Tags[i].TagId-tag-id">@ViewBag.Tags[i].Name</label>
     <br>
   }
 }
