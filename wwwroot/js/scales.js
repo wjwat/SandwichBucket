@@ -1,9 +1,9 @@
-function getSandWeight(sandW, userW) {
-  return userW * sandW;
+function getSandWeight(sandwichWeight, userWeight) {
+  return  sandwichWeight * userWeight;
 }
 
-function getSandHeight(sandH, userH) {
-  return userH * sandH;
+function getSandHeight(sandwichHeight, userHeight) {
+  return  sandwichHeight * userHeight;
 }
 
 $(document).ready(function() {
