@@ -1,10 +1,11 @@
-
 function getSandWeight(sandW, userW) {
   return userW * sandW;
 }
+
 function getSandHeight(sandH, userH) {
   return userH * sandH;
 }
+
 $(document).ready(function() {
   $("#convert").submit( function() {
     event.preventDefault();
@@ -15,8 +16,3 @@ $(document).ready(function() {
     $("#results").text("You are " + getSandWeight(user_weight, SANDWICH_WEIGHT) + " sandwiches heavy, and " + getSandHeight(user_height, SANDWICH_LENGTH) + " sandwiches tall.");
   });
 });
-
-
-
-
-
