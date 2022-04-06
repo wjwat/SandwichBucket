@@ -131,5 +131,25 @@ button, select, option {
   }
   to {
     text-shadow: 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
-  }
+  }	
+}
+
+#results {
+	padding: 5px;
+	color: red;
+	animation: animate 
+  .5s linear infinite;
+}
+@keyframes animate {
+	0% {
+			opacity: 1;
+	}
+
+	50% {
+			opacity: 1;
+	}
+
+	100% {
+			opacity: 0;
+	}
 }
