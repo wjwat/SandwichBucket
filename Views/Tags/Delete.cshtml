@@ -1,0 +1,11 @@
+@model SandwichBucket.Models.Tag
+
+<h1 class="are-you-sure">ARE YOU SURE YOU WANT TO DELETE THIS?</h1>
+
+<h1>@Model.Name</h1>
+
+<br />
+@using (Html.BeginForm())
+{
+  <button class="delete-button">MAKE SURE YOU'RE SURE BEFORE YOU HIT THIS BUTTON</button>
+}
