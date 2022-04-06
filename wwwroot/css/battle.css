@@ -82,3 +82,39 @@ a:link {
   text-decoration: none;
   color: black;
 }
+
+#enemy-level {
+  font-family: "Press Start 2P";
+  position: relative;
+  font-size: 13px;
+  top: -193px;
+  left: -65px;
+}
+
+#player-level {
+  font-family: "Press Start 2P";
+  position: relative;
+  font-size: 13px;
+  top: -45px;
+  left: 90px;
+}
+
+#attack-ball {
+  width: 20px;
+  position: relative;
+  top: -110px;
+  left: -65px;
+  visibility: visible;
+}
+
+.animate {
+  animation: attack 0.5s linear;
+}
+.de-animate {
+  animation: attack 0.5s linear;
+  animation-direction: reverse;
+}
+@keyframes attack {
+  0% {top: -65px;}
+  100% {top: -200px; left: 80px;}
+}
