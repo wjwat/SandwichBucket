@@ -4,12 +4,12 @@
 
 #### "One of the worst websites I've ever seen." -- The Guy At The Bus Stop That I Showed It To
 
-* Andy Plymate (@Plymatea)
-* Drew Henderson (@DrewHendersonGitHub)
-* Josh Tillinghast (@jwtill)
-* Ryan Bass (@probablynotryan)
-* William Jameson (@jwtill)
-* William Watkins (@wjwat)
+* Andy Plymate ([@Plymatea](https://github.com/Plymatea))
+* Drew Henderson ([@DrewHendersonGitHub](https://github.com/DrewHendersonGitHub))
+* Josh Tillinghast ([@jwtill](https://github.com/jwtill))
+* Ryan Bass ([@probablynotryan](https://github.com/probablynotryan))
+* William Jameson ([@jwtill](https://github.com/jwtill))
+* William Watkins ([@wjwat](https://github.com/wjwat))
 
 ## :computer: Technologies Used
 
