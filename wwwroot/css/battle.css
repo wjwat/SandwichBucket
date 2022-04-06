@@ -39,6 +39,7 @@
 .menu {
   font-family: "Press Start 2P";
   font-size: 12px;
+  text-decoration: none;
 }
 
 #fight {
@@ -75,4 +76,9 @@
 
 #exit:hover + #select-exit{
   visibility: visible;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
 }
