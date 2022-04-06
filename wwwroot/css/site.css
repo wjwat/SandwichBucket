@@ -79,6 +79,8 @@ button, select, option {
 }
 
 .glow {
+	font-size: 200%;
+	font-family: 'Monoton', cursive;
   color: white;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
