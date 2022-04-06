@@ -2,13 +2,15 @@
   color: white;
   text-shadow: rgb(99, 32, 32) 1px 1px;
   /* font-family: 'Permanent Marker', cursive; */
+	
 }
 
 body {
 	background: url(/img/bg-star.png) repeat;
 	background-size: 400px;
 	/* background-repeat: repeat-y; */
-	cursor: url('/img/sandwich_cursor.gif'), auto;
+	cursor: url(/img/sandwich_cursor.png), wait;
+	
 }
 .sandlist {
 	border: 1px solid green;
@@ -19,6 +21,11 @@ body {
 	margin-bottom: 5px;
 	/* list-style-position: inside; */
 	list-style-type: square;
+}
+.ing {
+	border: 1px dotted red;
+	padding: 10px;
+	margin: auto;
 }
 ul, li {
 	font-weight: bold;
