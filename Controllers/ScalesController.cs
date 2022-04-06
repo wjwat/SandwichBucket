@@ -23,9 +23,6 @@ namespace SandwichBucket.Controllers
       _db = db;
     }
 
-    // Have a random sandwich, ingredient, and tag shown on the front page
-    // as well as a list of random ingredients and challenge a visitor
-    // to make a sandwich with it
     public ActionResult Index()
     {
       return View();
