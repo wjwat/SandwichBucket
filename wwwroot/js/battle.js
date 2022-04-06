@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
 
-$("#fight").click(function(){;
+$("#fight").click(function(){
 const p = Math.floor(Math.random() * (parseInt($("#player-level").html()) + 1));
 let ww = (parseInt($("#player-level").html()) + 1);
 const c = Math.floor(Math.random() * (parseInt($("#enemy-level").html()) + 1));
@@ -18,10 +18,6 @@ if (p > c){
   }
 }
 
-// $("#exit").click(function(){
-//   window.location.href='http://localhost:5000/';
-//   return false;
-// })
 
 const test = fetch(`http://localhost:5000/Sandwiches/Random`, {
   mode: 'cors',
