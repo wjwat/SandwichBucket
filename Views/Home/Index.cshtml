@@ -5,10 +5,28 @@
 @model SandwichBucket.ViewModels.HomeViewModel
 
 <div id="text-center">
-    <h1 class="display-4">Welcome to the greatest website all about sandwiches to ever grace this earth</h1>
+    <div style="text-align: center">
+        <img src="/img/throb.gif"><img src="/img/throb.gif"><img src="/img/throb.gif">
+    </div>
+    <h1 style="max-width: 45rem;text-align: center;margin: 0 auto;">Welcome to the greatest website all about sandwiches to ever grace this earth</h1>
+    <div style="text-align: center">
+        <img src="/img/throb.gif"><img src="/img/throb.gif"><img src="/img/throb.gif">
+    </div>
 </div>
 
-<hr />
+<div id="text-center">
+<div style="text-align: center">
+    <img src="/img/welcome.gif">
+</div>
+<p style="margin: auto; max-width: 30rem;text-align: justify;">WELCOME TO THE SANDWICH BUCKET YOUR NUMBER ONE SPOT ON THE INTERNET FOR ALL THINGS SANDWICH RELATED WE'VE GOT BIG SANDWICHES LITTLE SANDWICHES TINY SANDWICHES SMELLY SANDWICHES WET SANDWICHES DRY SANDWICHES SANDWICHES THAT CAN SING SANDWICHES THAT CAN DANCE SANDWICHES IN ALL COLORS OF THE RAINBOW WE'VE ALSO GOT INGREDIENTS AND SOME GAMES YOU CANP LAY WHILE YOU EAT YOUR SANDWICHES WE CAN ALSO SELL YOU A BUCKET TO KEEP YOUR SANDWICH IN SO THATS SOMETHING REMEMBER THE TROOPS</p>
+<div style="text-align: center">
+    <img src="/img/dance.gif">
+    <img src="/img/flag.gif">
+    <img src="/img/potato.gif">
+</div>
+</div>
+
+<hr style="width: 50%">
 
 <h4>Random Sandwich: <b>@Model.Sandwich.Name</b> -- <small>@Model.Sandwich.Description</small></h4>
 <p>Sandwich Alignment: <b>@Html.DisplayFor(model => model.Sandwich.Alignment)</b></p>
