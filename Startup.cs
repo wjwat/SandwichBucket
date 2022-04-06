@@ -28,6 +28,14 @@ namespace SandwichBucket
       services.AddEntityFrameworkMySql()
           .AddDbContext<SandwichBucketContext>(options =>
               options.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
+
+      services.AddCors(options => options
+          .AddPolicy("CorsPolicy", builder => builder
+              .AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+          )
+      );
     }
 
     public void Configure(IApplicationBuilder app)
@@ -35,6 +43,8 @@ namespace SandwichBucket
       app.UseDeveloperExceptionPage();
       app.UseRouting();
       app.UseStaticFiles();
+
+      app.UseCors("CorsPolicy");
 
       app.UseEndpoints(routes =>
       {
