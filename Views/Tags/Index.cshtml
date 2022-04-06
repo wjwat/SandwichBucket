@@ -1,0 +1,24 @@
+@model List<Tag>
+
+<h1>Tags</h1>
+
+@if (@Model.Count == 0)
+{
+  <h3>No Tags</h3>
+  <img src="/img/baby.gif" />
+}
+else
+{
+  @foreach (Tag t in Model)
+  {
+    
+      <ul>
+        <li><span class="stylized">@t.Name</span>
+          <br />@Html.ActionLink("Check It Out", "Details", "Tags", new { id = t.TagId })
+        </li>
+      </ul>
+    
+  }
+}
+
+<a href="/Tags/Create"><button type=button>TAG YOURSELF IN</button></a>

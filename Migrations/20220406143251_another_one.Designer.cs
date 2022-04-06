@@ -8,8 +8,8 @@ using SandwichBucket;
 namespace SandwichBucket.Migrations
 {
     [DbContext(typeof(SandwichBucketContext))]
-    [Migration("20220405142946_Another_One")]
-    partial class Another_One
+    [Migration("20220406143251_another_one")]
+    partial class another_one
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -844,41 +844,41 @@ namespace SandwichBucket.Migrations
                         {
                             SandwichId = 1,
                             Alignment = 8,
-                            Description = "",
+                            Description = "Yes, All Day",
                             Name = "All Day I Dream About Sandwich"
                         },
                         new
                         {
                             SandwichId = 2,
-                            Alignment = 6,
+                            Alignment = 2,
                             Description = "Hell yes",
                             Name = "Banh Mi"
                         },
                         new
                         {
                             SandwichId = 3,
-                            Alignment = 1,
+                            Alignment = 2,
                             Description = "Classic",
                             Name = "BLT"
                         },
                         new
                         {
                             SandwichId = 4,
-                            Alignment = 1,
+                            Alignment = 5,
                             Description = "Watch out for the burglar",
                             Name = "Cheeseburger"
                         },
                         new
                         {
                             SandwichId = 5,
-                            Alignment = 6,
+                            Alignment = 1,
                             Description = "Chop up",
                             Name = "Cheesesteak"
                         },
                         new
                         {
                             SandwichId = 6,
-                            Alignment = 2,
+                            Alignment = 4,
                             Description = "Damn fine",
                             Name = "CherryPie"
                         },
@@ -892,196 +892,196 @@ namespace SandwichBucket.Migrations
                         new
                         {
                             SandwichId = 8,
-                            Alignment = 3,
+                            Alignment = 5,
                             Description = "Who am I?",
                             Name = "Chopped Liver"
                         },
                         new
                         {
                             SandwichId = 9,
-                            Alignment = 8,
+                            Alignment = 6,
                             Description = "Damn fine",
                             Name = "Croque-monsieur"
                         },
                         new
                         {
                             SandwichId = 10,
-                            Alignment = 6,
+                            Alignment = 0,
                             Description = "All kinds of pork",
                             Name = "Cubano"
                         },
                         new
                         {
                             SandwichId = 11,
-                            Alignment = 0,
+                            Alignment = 5,
                             Description = "Veal or Beef??",
                             Name = "Doner kebab"
                         },
                         new
                         {
                             SandwichId = 12,
-                            Alignment = 0,
+                            Alignment = 1,
                             Description = "No More, No less",
                             Name = "Eat 16 Sandwiches"
                         },
                         new
                         {
                             SandwichId = 13,
-                            Alignment = 7,
+                            Alignment = 1,
                             Description = "You're either with it or against it",
                             Name = "Egg Salad"
                         },
                         new
                         {
                             SandwichId = 14,
-                            Alignment = 4,
-                            Description = "",
+                            Alignment = 2,
+                            Description = "I'll get mine before you get yours",
                             Name = "F*ck You, Eat Me"
                         },
                         new
                         {
                             SandwichId = 15,
-                            Alignment = 1,
+                            Alignment = 8,
                             Description = "Chickpeas or Garbanzos?",
                             Name = "Falafel"
                         },
                         new
                         {
                             SandwichId = 16,
-                            Alignment = 2,
-                            Description = "",
+                            Alignment = 1,
+                            Description = "Nu-sandwich for sandwich-heads",
                             Name = "Falling Away From Meat"
                         },
                         new
                         {
                             SandwichId = 17,
-                            Alignment = 5,
-                            Description = "",
+                            Alignment = 8,
+                            Description = "Are you feeling like it?",
                             Name = "Freak On A Sandwich"
                         },
                         new
                         {
                             SandwichId = 18,
-                            Alignment = 0,
+                            Alignment = 4,
                             Description = "Turkey and slaw baby",
                             Name = "Georgia Reuben"
                         },
                         new
                         {
                             SandwichId = 19,
-                            Alignment = 1,
+                            Alignment = 4,
                             Description = "(A Sandwich)",
                             Name = "Give Me Something To Eat"
                         },
                         new
                         {
                             SandwichId = 20,
-                            Alignment = 3,
+                            Alignment = 8,
                             Description = "Mayo or Butter???",
                             Name = "Grilled Cheese"
                         },
                         new
                         {
                             SandwichId = 21,
-                            Alignment = 0,
+                            Alignment = 5,
                             Description = "GYYY-ROOOE",
                             Name = "Gyro"
                         },
                         new
                         {
                             SandwichId = 22,
-                            Alignment = 7,
+                            Alignment = 5,
                             Description = "Some words",
                             Name = "Ham and Swiss"
                         },
                         new
                         {
                             SandwichId = 23,
-                            Alignment = 1,
+                            Alignment = 6,
                             Description = "Don't put ketchup on a hot dog",
                             Name = "Hot Dog"
                         },
                         new
                         {
                             SandwichId = 24,
-                            Alignment = 6,
+                            Alignment = 0,
                             Description = "Who put it there?",
                             Name = "Ice Cream Sandwich"
                         },
                         new
                         {
                             SandwichId = 25,
-                            Alignment = 2,
+                            Alignment = 7,
                             Description = "Your mom's favorite",
                             Name = "It's My Sandwich In a Box"
                         },
                         new
                         {
                             SandwichId = 26,
-                            Alignment = 7,
+                            Alignment = 0,
                             Description = "You should eat this with a fork",
                             Name = "Meatball Sub"
                         },
                         new
                         {
                             SandwichId = 27,
-                            Alignment = 4,
+                            Alignment = 7,
                             Description = "Yum olives",
                             Name = "Muffuletta"
                         },
                         new
                         {
                             SandwichId = 28,
-                            Alignment = 7,
+                            Alignment = 5,
                             Description = "Hand eating at its finest",
                             Name = "Pastie"
                         },
                         new
                         {
                             SandwichId = 29,
-                            Alignment = 1,
+                            Alignment = 2,
                             Description = "That's it",
                             Name = "PB&J"
                         },
                         new
                         {
                             SandwichId = 30,
-                            Alignment = 6,
+                            Alignment = 5,
                             Description = "Fold it",
                             Name = "Pizza"
                         },
                         new
                         {
                             SandwichId = 31,
-                            Alignment = 5,
+                            Alignment = 4,
                             Description = "This is making me hungry",
                             Name = "Pulled Pork"
                         },
                         new
                         {
                             SandwichId = 32,
-                            Alignment = 7,
-                            Description = "",
+                            Alignment = 1,
+                            Description = "From a delicious sky",
                             Name = "Raining Sauce"
                         },
                         new
                         {
                             SandwichId = 33,
-                            Alignment = 0,
+                            Alignment = 7,
                             Description = "Who cares Ryan does!",
                             Name = "Reuben"
                         },
                         new
                         {
                             SandwichId = 34,
-                            Alignment = 7,
+                            Alignment = 5,
                             Description = "Gotta be with horsey sauce",
                             Name = "Roast Beef"
                         },
                         new
                         {
                             SandwichId = 35,
-                            Alignment = 3,
+                            Alignment = 2,
                             Description = "No please don't 'member this horror",
                             Name = "Salad Fingers"
                         },
@@ -1095,7 +1095,7 @@ namespace SandwichBucket.Migrations
                         new
                         {
                             SandwichId = 37,
-                            Alignment = 3,
+                            Alignment = 7,
                             Description = "Somehow this is a sandwich",
                             Name = "Spaghetti and Meatballs"
                         },
@@ -1109,35 +1109,35 @@ namespace SandwichBucket.Migrations
                         new
                         {
                             SandwichId = 39,
-                            Alignment = 6,
+                            Alignment = 5,
                             Description = "Maybe the best of all sandwiches",
                             Name = "Taco"
                         },
                         new
                         {
                             SandwichId = 40,
-                            Alignment = 0,
+                            Alignment = 7,
                             Description = "yum",
                             Name = "Torta"
                         },
                         new
                         {
                             SandwichId = 41,
-                            Alignment = 4,
+                            Alignment = 7,
                             Description = "Chicken of the sea",
                             Name = "Tuna Salad"
                         },
                         new
                         {
                             SandwichId = 42,
-                            Alignment = 3,
+                            Alignment = 2,
                             Description = "(A Sandwich (cow's head))",
                             Name = "What's In The Box?"
                         },
                         new
                         {
                             SandwichId = 43,
-                            Alignment = 7,
+                            Alignment = 4,
                             Description = "Some dirt between two 2 x 4s",
                             Name = "Wood"
                         });
@@ -2555,11 +2555,6 @@ namespace SandwichBucket.Migrations
                         {
                             TagId = 37,
                             Name = "Funny, But Not Really"
-                        },
-                        new
-                        {
-                            TagId = 38,
-                            Name = ""
                         });
                 });
 
