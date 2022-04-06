@@ -6,12 +6,19 @@
 }
 
 body {
+	max-width: 60rem;
+	margin: 0 auto;
 	background: url(/img/bg-star.png) repeat;
 	background-size: 400px;
 	/* background-repeat: repeat-y; */
-	cursor: url(/img/sandwich_cursor.png), wait;
-	
+	cursor: url(/img/sandwich_cursor.png), wait;	
 }
+
+input {
+	color: black;
+	text-shadow: none;
+}
+
 .sandlist {
 	border: 1px solid green;
 	width: 50%;
