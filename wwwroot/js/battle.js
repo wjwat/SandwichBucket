@@ -17,11 +17,15 @@ if (p > c){
     }, 500);
   $("#player-level").text(ww);
 } else {
+  $('#eattack-ball').addClass("eanimate");
+  setTimeout (() => {
+    $('#player-sandwich').addClass("ouchie");
+    $('#eattack-ball').removeClass("eanimate");
+  }, 500);
+  setTimeout (() => {
+    $('#player-sandwich').removeClass("ouchie");
+  }, 3000);
   if (ww > 2){
-    $('#attack-ball').addClass("de-animate");
-    setTimeout (() => {
-      $('#attack-ball').removeClass("de-animate");
-    }, 500);
     $("#player-level").text(1);
   }
 }
