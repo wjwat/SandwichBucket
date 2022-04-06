@@ -17,8 +17,37 @@ if (p > c){
     $("#player-level").text(1);
   }
 }
-fetch(`http://localhost:5000/Sandwich/Random/`)
-  .then (function(response) {
-    $("#enemy-name").text(response.name)
-  })
-});
+
+// $("#exit").click(function(){
+//   window.location.href='http://localhost:5000/';
+//   return false;
+// })
+
+const test = fetch(`http://localhost:5000/Sandwiches/Random`, {
+  mode: 'cors',
+  headers: {
+    'Access-Control-Allow-Origin':'*'
+  }
+})
+      .then(function(response) {
+        if (!response.ok) {
+          throw Error(response.statusText);
+        }
+      return response.json()
+      })
+      .catch(function(error) {
+        return error;
+      })
+      .then(resp => {
+        $("#enemy-name").text(resp.name);
+      }
+      
+      )});
+
+      // set levels where they're supposed to go
+      // have ingredients show from menu (or something)
+      // ahref to home on click
+      // sound (music) || option turn off sound
+      // when fight have a timeout with combat animation 
+      // (health goes down, maybe a salami flies [keyframes])
+      
