@@ -17,28 +17,6 @@ else
           <br />@s.Description
           <br />@Html.ActionLink("Check It Out", "Details", "Sandwiches", new { id = s.SandwichId })
         </li>
-
-        @*
-        @if (s.Ingredients.Count != 0)
-        {
-          <li><ul>
-          @foreach (Ingredient i in s.Ingredients)
-          {
-            <li>INGREDIENT: @i.Name / @i.Description</li>
-          }
-          </ul></li>
-        }
-
-        @if (s.Tags.Count != 0)
-        {
-          <li><ul>
-          @foreach (Tag t in s.Tags)
-          {
-            <li>TAG: @t.Name</li>
-          }
-          </ul></li>
-        }
-        *@
       </ul>
     
   }
