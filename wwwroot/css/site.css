@@ -58,6 +58,9 @@ ul, li, footer {
   padding: 0.625rem;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#top {
+	text-decoration: none;
+}
 
 #footer {
 	position: fixed;
@@ -128,5 +131,29 @@ button, select, option {
   }
   to {
     text-shadow: 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
-  }
+  }	
+}
+
+#results {
+	color: red;
+	animation: animate 
+  .5s linear infinite;
+	font-size: 2em;
+}
+@keyframes animate {
+	0% {
+			opacity: 0;
+	}
+
+	50% {
+			opacity: 1;
+	}
+
+	100% {
+			opacity: 1;
+	}
+}
+#sand-scale {
+	padding: 10px;
+	height: 3em;
 }
