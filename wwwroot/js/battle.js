@@ -3,7 +3,10 @@ $(document).ready(function() {
   $("#enemy-level").text(1);
 })
 
-
+$(window).on("load", () => {
+  var audio = new Audio('~/midi/effinrockmusic.mp3');
+  audio.play();
+});
 
 $("#fight").click(function(){
 const p = Math.floor(Math.random() * (parseInt($("#player-level").html()) + 1));
