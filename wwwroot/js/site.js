@@ -3,7 +3,7 @@
 
 // Write your JavaScript code.
 
-const SONGS = ["cappello", "creed", "eiffel", "impress", "korn", "losdelrio", "mambo", "mouth", "numa", "sunshine", "venga", "voodoo"];
+const SONGS = ["cappello", "creed", "eiffel", "impress", "korn", "korn", "korn", "losdelrio", "mambo", "mouth", "numa", "sunshine", "venga", "voodoo"];
 const BANNERS = 39;
 const BARKS = [
   "THE MASKED DATER SENDS HIS REGARDS",
@@ -25,11 +25,12 @@ const getRandomIntInclusive = (min, max) => {
 };
 
 $(() => {
+  $("#song").attr("src", "/midi/" + SONGS[Math.floor(Math.random() * SONGS.length)] + ".mp3")
   $("#banner-1").attr("src", "/img/banners/" + getRandomIntInclusive(1, BANNERS) + '.gif');
   $("#banner-2").attr("src", "/img/banners/" + getRandomIntInclusive(1, BANNERS) + '.gif');
   alert(BARKS[Math.floor(Math.random() * BARKS.length)].toUpperCase());
 });
 
-$(window).on("load", () => {
-  $("#song").attr("src", "/midi/" + SONGS[Math.floor(Math.random() * SONGS.length)] + ".mp3")
-});
+// $(window).on("load", () => {
+//   $("#song").attr("src", "/midi/" + SONGS[Math.floor(Math.random() * SONGS.length)] + ".mp3")
+// });
