@@ -1,8 +1,8 @@
-function getSandWeight(sandwichWeight, userWeight) {
+function getWeightInSand(sandwichWeight, userWeight) {
   return  sandwichWeight * userWeight;
 }
 
-function getSandHeight(sandwichHeight, userHeight) {
+function getHeightInSand(sandwichHeight, userHeight) {
   return  sandwichHeight * userHeight;
 }
 
@@ -13,6 +13,6 @@ $(document).ready(function() {
     const user_height = $("#user-height").val(); 
     const SANDWICH_WEIGHT = .625; 
     const SANDWICH_LENGTH = 10; 
-    $("#results").text("You are " + getSandWeight(user_weight, SANDWICH_WEIGHT) + " sandwiches heavy, and " + getSandHeight(user_height, SANDWICH_LENGTH) + " sandwiches tall.");
+    $("#results").text("You are " + getWeightInSand(user_weight, SANDWICH_WEIGHT) + " sandwiches heavy, and " + getHeightInSand(user_height, SANDWICH_LENGTH) + " sandwiches tall.");
   });
 });
