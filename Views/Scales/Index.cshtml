@@ -3,8 +3,10 @@
 
 <h1>Sandwich for Scale</h1>
 <form id="convert">
+  
   <label for="user-weight">Your weight</label>
   <input id="user-weight" type="number" name="user-weight" required></input>
+
   <select name="weight-unit" id="weight-unit">
     <option value="lbs">lbs</option>
     <option value="kilos">kilos</option>
@@ -12,16 +14,13 @@
 
   <label for="user-height">Your height:</label>
   <input id="user-height" type="number" step="0.01" required></input>
+
   <select name="height-unit" id="height-unit">
-    <option value="lbs">feet</option>
+    <option value="feet">feet</option>
     <option value="meters">meters</option>
   </select>
-  <input id="user-height2" type="number" step="0.01" required></input>
-   <select name="height-unit" id="height-unit">
-    <option value="inches">inches</option>
-    <option value="cm">cm</option>
-  </select>
-  <button type="submit">Grind</button>
+
+   <button type="submit">Grind</button>
 </form>
 
 <div id="sand-scale">

@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+body {
+background: url(/img/bg-star.png) repeat;
+background-size: 400px;
+}
 .jump .game {
   overflow-x: hidden;
   margin-left: auto;
