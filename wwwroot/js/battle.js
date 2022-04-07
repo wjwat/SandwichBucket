@@ -3,9 +3,7 @@ $(document).ready(function() {
   $("#enemy-level").text(1);
 })
 
-
-
-$("#fight").click(function(){;
+$("#fight").click(function(){
 const p = Math.floor(Math.random() * (parseInt($("#player-level").html()) + 1));
 let ww = (parseInt($("#player-level").html()) + 1);
 const c = Math.floor(Math.random() * (parseInt($("#enemy-level").html()) + 1));
