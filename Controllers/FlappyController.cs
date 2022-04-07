@@ -12,12 +12,12 @@ using SandwichBucket.ViewModels;
 
 namespace SandwichBucket.Controllers
 {
-  public class FlappyBirdWebBuildController : Controller
+  public class FlappyController : Controller
   {
-    private readonly ILogger<FlappyBirdWebBuildController> _logger;
+    private readonly ILogger<FlappyController> _logger;
     private readonly SandwichBucketContext _db;
 
-    public FlappyBirdWebBuildController(ILogger<FlappyBirdWebBuildController> logger, SandwichBucketContext db)
+    public FlappyController(ILogger<FlappyController> logger, SandwichBucketContext db)
     {
       _logger = logger;
       _db = db;
