@@ -29,6 +29,30 @@ Second scenario: You're a prominent physician, the talk of the town, and someone
 
 ## :gear: Setup/Installation & Usage Instructions
 
+- [Install the MySQL Community Server & MySQL Workbench](https://dev.mysql.com/downloads/mysql/)
+- [Install the .NET 5 SDK](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net)
+- Install the [dotnet-ef](https://docs.microsoft.com/en-us/ef/core/cli/dotnet) tool with this command: `dotnet tool install --global dotnet-ef`
+- [Clone this
+  repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+  to your device
+- Create `appsettings.json` in the top level of this repo
+  - Copy the contents of the code below into this file. *Make sure to change the password to the password you used to setup your MySQL server*
+  ```JSON
+  {
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=localhost;Port=3306;database=sandwich_bucket;uid=root;pwd=<PASSWORD>;"
+    }
+  }
+  ```
+- [Using your
+  terminal](https://www.freecodecamp.org/news/how-you-can-be-more-productive-right-now-using-bash-29a976fb1ab4/)
+  navigate to the directory where you have cloned this repo.
+- Run `dotnet build` in the top level directory of this repo.
+- Once the project has been built run `dotnet ef database update` to create the database necessary to run the app.
+- Run `dotnet run` to get the program running, and the site hosted locally.
+- Open your browser and visit `http://localhost:5000/`
+- Bask
+
 ## :page_facing_up: Notes
 
 ## :lady_beetle: Known Bugs
