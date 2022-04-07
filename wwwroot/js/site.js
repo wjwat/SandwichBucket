@@ -25,8 +25,12 @@ const getRandomIntInclusive = (min, max) => {
 };
 
 $(() => {
+  $("#song").attr("src", "/midi/" + SONGS[Math.floor(Math.random() * SONGS.length)] + ".mp3")
   $("#banner-1").attr("src", "/img/banners/" + getRandomIntInclusive(1, BANNERS) + '.gif');
   $("#banner-2").attr("src", "/img/banners/" + getRandomIntInclusive(1, BANNERS) + '.gif');
   alert(BARKS[Math.floor(Math.random() * BARKS.length)].toUpperCase());
-  $("#song").attr("src", "/midi/" + SONGS[Math.floor(Math.random() * SONGS.length)] + ".mp3")
 });
+
+// $(window).on("load", () => {
+//   $("#song").attr("src", "/midi/" + SONGS[Math.floor(Math.random() * SONGS.length)] + ".mp3")
+// });
