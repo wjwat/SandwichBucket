@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SandwichBucket.Migrations
 {
-    public partial class another_one : Migration
+    public partial class FINAL : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

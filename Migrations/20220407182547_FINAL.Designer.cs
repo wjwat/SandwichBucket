@@ -8,8 +8,8 @@ using SandwichBucket;
 namespace SandwichBucket.Migrations
 {
     [DbContext(typeof(SandwichBucketContext))]
-    [Migration("20220406143251_another_one")]
-    partial class another_one
+    [Migration("20220407182547_FINAL")]
+    partial class FINAL
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
