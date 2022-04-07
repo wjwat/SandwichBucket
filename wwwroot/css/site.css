@@ -1,8 +1,6 @@
 ﻿* {
   color: white;
   text-shadow: rgb(99, 32, 32) 1px 1px;
-  /* font-family: 'Permanent Marker', cursive; */
-	
 }
 
 body {
@@ -10,7 +8,6 @@ body {
 	margin: 0 auto;
 	background: url(/img/bg-star.png) repeat;
 	background-size: 400px;
-	/* background-repeat: repeat-y; */
 	cursor: url(/img/sandwich_cursor.png), wait;	
 }
 
@@ -26,7 +23,6 @@ input {
 	padding-bottom: 20px;
 	margin: auto;
 	margin-bottom: 5px;
-	/* list-style-position: inside; */
 	list-style-type: square;
 }
 .ing {
@@ -57,6 +53,9 @@ ul, li, footer {
   background-size: 10% 100%;
   padding: 0.625rem;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#top {
+	text-decoration: none;
 }
 
 #footer {
@@ -128,5 +127,26 @@ button, select, option {
   }
   to {
     text-shadow: 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
-  }
+  }	
+}
+
+#results {
+	color: red;
+	animation: blink-animation 1s steps(5, start) infinite;
+	-webkit-animation: blink-animation 1s steps(5, start) infinite;
+	font-size: 2em;
+}
+	@keyframes blink-animation {
+		to {
+			visibility: hidden;
+		}
+	}
+	@-webkit-keyframes blink-animation {
+		to {
+			visibility: hidden;
+		}
+}
+#sand-scale {
+	padding: 10px;
+	height: 3em;
 }
