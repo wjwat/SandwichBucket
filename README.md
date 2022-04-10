@@ -1,5 +1,7 @@
 # 🥪 The Sandwich Bucket 🥪
 
+## Now hosted live at [sandwichbucket.club](http://sandwichbucket.club)
+
 <img src="https://i.imgur.com/ExbewZk.png" />
 
 #### "One of the worst websites I've ever seen." -- The Guy At The Bus Stop That I Showed It To

@@ -30,7 +30,3 @@ $(() => {
   $("#banner-2").attr("src", "/img/banners/" + getRandomIntInclusive(1, BANNERS) + '.gif');
   alert(BARKS[Math.floor(Math.random() * BARKS.length)].toUpperCase());
 });
-
-// $(window).on("load", () => {
-//   $("#song").attr("src", "/midi/" + SONGS[Math.floor(Math.random() * SONGS.length)] + ".mp3")
-// });
